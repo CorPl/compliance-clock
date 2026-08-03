@@ -1,0 +1,55 @@
+# Daily watcher run + site rebuild + deploy to GitHub Pages (gh-pages branch).
+# Fail-safe by design:
+#  - watch.py exits 0 even when individual sources fail (failures are recorded
+#    and displayed on the public status page instead of breaking the run)
+#  - build_site.py refuses to build if the ledger fails validation, so a bad
+#    edit can never reach the live site; the previous deploy keeps serving
+#  - if this whole workflow dies, the site keeps serving its last version and
+#    the "last watcher run" timestamp on the status page goes visibly stale
+name: watch-and-publish
+
+on:
+  push:
+    branches: [main]        # deploy immediately on every published update
+  schedule:
+    - cron: "17 5 * * *"    # daily 05:17 UTC (odd minute avoids the top-of-hour crowd)
+  workflow_dispatch: {}      # manual run button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch-and-publish
+  cancel-in-progress: false
+
+jobs:
+  watch-build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run watchers (detect + queue only, never publishes)
+        run: python scripts/watch.py
+      - name: Validate ledger and rebuild site (blocked if validation fails)
+        run: python scripts/build_site.py
+      - name: Commit status, snapshots and site back to main
+        run: |
+          git config user.name "compliance-clock-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/status.json data/queue.json data/snapshots site
+          git diff --cached --quiet || git commit -m "watch: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+      - name: Deploy site/ to gh-pages (auto-enables GitHub Pages)
+        run: |
+          cd site
+          git init -b gh-pages
+          git config user.name "compliance-clock-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .
+          git commit -m "deploy: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}

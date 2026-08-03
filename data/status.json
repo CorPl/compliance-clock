@@ -1,0 +1,210 @@
+{
+  "sources": {
+    "uk-hmrc-mtd-it": {
+      "last_ok": "2026-08-03T15:44:13Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax": {
+          "last_hash": "fa380b36aeeb20db1b01b6475e7cc0fdc500dc683903bfc4bced87fe241be025",
+          "last_len": 11431
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+      "escalated": false
+    },
+    "uk-hmrc-mtd-collection": {
+      "last_ok": "2026-08-03T15:44:13Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step": {
+          "last_hash": "36e308a1562fc1d4e62a1a7d961db80d5868350d5d20aa476385086d137e02d8",
+          "last_len": 7030
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
+      "escalated": false
+    },
+    "uk-hmrc-sa-deadlines": {
+      "last_ok": "2026-08-03T15:44:13Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines": {
+          "last_hash": "2a326aef9627856d8aa4706f264c42672e7c75474e5e6c99bf9281c00e50108f",
+          "last_len": 6585
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+      "escalated": false
+    },
+    "uk-vat-registration": {
+      "last_ok": "2026-08-03T15:44:13Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/vat-registration/when-to-register": {
+          "last_hash": "6cb85dd8a84b5301bcec772d1f588e91135bd6cbb5a923dffc369f0fbee4fb13",
+          "last_len": 8100
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/vat-registration/when-to-register",
+      "escalated": false
+    },
+    "uk-companies-house-idv": {
+      "last_ok": "2026-08-03T15:44:14Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house": {
+          "last_hash": "87443004b44bb47621aebf84120a1180f674746ae36c981b3a6ca4d4753b11b7",
+          "last_len": 12187
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+      "escalated": false
+    },
+    "uk-companies-house-changes": {
+      "last_ok": "2026-08-03T15:44:14Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://changestoukcompanylaw.campaign.gov.uk/": {
+          "last_hash": "3c8e2a159ee613a56217317d6e4b08172b8be16a9a787ab1b09f96d81d6a35bf",
+          "last_len": 2847
+        }
+      },
+      "last_ok_url": "https://changestoukcompanylaw.campaign.gov.uk/",
+      "escalated": false
+    },
+    "uk-employer-deadlines": {
+      "last_ok": "2026-08-03T15:44:14Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/running-payroll": {
+          "last_hash": "50751a0a7b6c1a015d95f790cd4c1c76f9a69e3578051571423f3cbb1bbf1017",
+          "last_len": 7655
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/running-payroll",
+      "escalated": false
+    },
+    "uk-renters-rights": {
+      "last_ok": "2026-08-03T15:44:14Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.gov.uk/government/publications/guide-to-the-renters-rights-bill": {
+          "last_hash": "893b40103dc796630920abbca2b69d641f1f711db8e0eaff76985aca75236a0e",
+          "last_len": 4261
+        }
+      },
+      "last_ok_url": "https://www.gov.uk/government/publications/guide-to-the-renters-rights-bill",
+      "escalated": false
+    },
+    "fr-einvoicing": {
+      "last_ok": "2026-08-03T15:44:14Z",
+      "last_error": {
+        "at": "2026-08-03T15:31:53Z",
+        "error": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique": {
+          "last_hash": "ea916e4a98c8aafa5df04191e4df389d992291f335f207caa214024cd89c8e58",
+          "last_len": 4397
+        }
+      },
+      "last_ok_url": "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique",
+      "escalated": false
+    },
+    "de-erechnung": {
+      "last_ok": "2026-08-03T15:44:16Z",
+      "last_error": {
+        "at": "2026-08-03T15:44:16Z",
+        "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> blocked: bot-block page (matched 'radware captcha')"
+      },
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html": {
+          "last_hash": "cc6021ed8fb019e2b4ed84f6dc2467837b1067e29cefa0f7b9616e56bcc66053",
+          "last_len": 37389
+        },
+        "https://e-rechnung-bund.de/": {
+          "last_hash": "4bbb5f4d02c2b286b2e2ee2f7fb946984488fcb90210984d3980f03201e90e20",
+          "last_len": 12439
+        }
+      },
+      "last_ok_url": "https://e-rechnung-bund.de/",
+      "escalated": false
+    },
+    "pl-ksef": {
+      "last_ok": "2026-08-03T15:44:17Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://www.podatki.gov.pl/ksef/": {
+          "last_hash": "93472de5d897f42762b54206fef1d6c1f21f4cd058de2b7c0e1f79c23fbb92cf",
+          "last_len": 3021
+        }
+      },
+      "last_ok_url": "https://www.podatki.gov.pl/ksef/",
+      "escalated": false
+    },
+    "be-efactuur": {
+      "last_ok": "2026-08-03T15:44:17Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://efactuur.belgium.be/nl": {
+          "last_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "last_len": 0
+        }
+      },
+      "last_ok_url": "https://efactuur.belgium.be/nl",
+      "escalated": false
+    },
+    "ro-efactura": {
+      "last_ok": "2026-08-03T15:44:18Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://mfinante.gov.ro/ro/web/efactura": {
+          "last_hash": "d44564dc9e6017c20dadc8b98ae5225bd71bada26aa476bf44751a60942bb495",
+          "last_len": 2073
+        }
+      },
+      "last_ok_url": "https://mfinante.gov.ro/ro/web/efactura",
+      "escalated": false
+    },
+    "eu-vida": {
+      "last_ok": "2026-08-03T15:44:18Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en": {
+          "last_hash": "67fa1d687448e4eb1a110430c6612dab935550bf0704d26769d21c746446dbbd",
+          "last_len": 8558
+        }
+      },
+      "last_ok_url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+      "escalated": false
+    },
+    "eu-ai-act": {
+      "last_ok": "2026-08-03T15:44:18Z",
+      "last_error": null,
+      "consecutive_failures": 0,
+      "urls": {
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
+          "last_hash": "ce782712fe294aa5b366279b0b72c3a2da49e99adf6266c246e825149c16de4a",
+          "last_len": 18181
+        }
+      },
+      "last_ok_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "escalated": false
+    }
+  },
+  "last_run": "2026-08-03T15:44:18Z"
+}

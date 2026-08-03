@@ -1,0 +1,20 @@
+{
+  "_comment": "Source registry for the watchers. Official pages only. Each watcher runs independently; failures never block other sources.",
+  "sources": [
+    {"id": "uk-hmrc-mtd-it", "jurisdiction": "UK", "url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax", "topic": "Making Tax Digital for Income Tax"},
+    {"id": "uk-hmrc-mtd-collection", "jurisdiction": "UK", "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step", "topic": "MTD step by step"},
+    {"id": "uk-hmrc-sa-deadlines", "jurisdiction": "UK", "url": "https://www.gov.uk/self-assessment-tax-returns/deadlines", "topic": "Self Assessment deadlines"},
+    {"id": "uk-vat-registration", "jurisdiction": "UK", "url": "https://www.gov.uk/vat-registration/when-to-register", "topic": "VAT registration threshold"},
+    {"id": "uk-companies-house-idv", "jurisdiction": "UK", "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house", "topic": "Companies House identity verification"},
+    {"id": "uk-companies-house-changes", "jurisdiction": "UK", "url": "https://changestoukcompanylaw.campaign.gov.uk/", "topic": "UK company law changes"},
+    {"id": "uk-employer-deadlines", "jurisdiction": "UK", "url": "https://www.gov.uk/running-payroll", "topic": "Employer payroll duties"},
+    {"id": "uk-renters-rights", "jurisdiction": "UK", "url": "https://www.gov.uk/government/publications/guide-to-the-renters-rights-bill", "topic": "Renters' Rights Act"},
+    {"id": "fr-einvoicing", "jurisdiction": "FR", "url": "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique", "topic": "Facturation électronique B2B"},
+    {"id": "de-erechnung", "jurisdiction": "DE", "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html", "topic": "E-Rechnung", "fallback_urls": ["https://e-rechnung-bund.de/", "https://www.gesetze-im-internet.de/ustg_1980/__14.html"]},
+    {"id": "pl-ksef", "jurisdiction": "PL", "url": "https://www.podatki.gov.pl/ksef/", "topic": "KSeF"},
+    {"id": "be-efactuur", "jurisdiction": "BE", "url": "https://efactuur.belgium.be/nl", "topic": "Peppol e-invoicing"},
+    {"id": "ro-efactura", "jurisdiction": "RO", "url": "https://mfinante.gov.ro/ro/web/efactura", "topic": "e-Factura"},
+    {"id": "eu-vida", "jurisdiction": "EU", "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en", "topic": "VAT in the Digital Age"},
+    {"id": "eu-ai-act", "jurisdiction": "EU", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "topic": "EU AI Act"}
+  ]
+}

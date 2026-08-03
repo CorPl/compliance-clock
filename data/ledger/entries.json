@@ -1,0 +1,32 @@
+[
+  {
+    "id": "uk-mtd-itsa-q1-2026",
+    "jurisdiction": "UK",
+    "domain": "tax-filing",
+    "type": "deadline",
+    "title": "First Making Tax Digital quarterly update due",
+    "summary": "The first quarterly update under Making Tax Digital for Income Tax (covering 6 April to 5 July 2026) must reach HMRC by 7 August 2026.",
+    "who": "UK sole traders and landlords with qualifying income over £50,000",
+    "date": "2026-08-07",
+    "recurrence": "quarterly",
+    "status": "confirmed",
+    "sources": ["https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax"],
+    "verified": "2026-08-03",
+    "notes": "Subsequent updates due 7 November 2026, 7 February 2027 and 7 May 2027."
+  },
+  {
+    "id": "fr-einvoicing-receive-2026",
+    "jurisdiction": "FR",
+    "domain": "e-invoicing",
+    "type": "deadline",
+    "title": "All French companies must be able to receive e-invoices",
+    "summary": "From 1 September 2026 every company registered in France must be able to receive electronic invoices (facturation électronique) via the official platform network.",
+    "who": "All VAT-registered businesses in France, regardless of size",
+    "date": "2026-09-01",
+    "recurrence": null,
+    "status": "confirmed",
+    "sources": ["https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique"],
+    "verified": "2026-08-03",
+    "notes": "Issuing obligation phases in later; large and mid-sized companies must also issue from this date."
+  }
+]
