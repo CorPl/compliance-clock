@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "source": "be-efactuur",
+    "url": "https://efactuur.belgium.be/nl",
+    "topic": "Peppol e-invoicing",
+    "detected": "2026-08-03T15:56:30Z",
+    "snapshot": "be-efactuur/20260803-155630.html",
+    "state": "pending-review"
+  }
+]

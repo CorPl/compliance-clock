@@ -1,18 +1,18 @@
 {
   "project": "The Compliance Clock",
   "description": "Verified compliance deadlines and rule changes for small businesses (UK, FR, DE, PL, BE, RO, EU). Official sources only.",
-  "generated_at": "2026-08-03T15:44:18Z",
+  "generated_at": "2026-08-03T15:56:33Z",
   "disclaimer": "Information service reporting official sources; not legal or tax advice. Entries are append-only; corrections reference the id they supersede.",
   "freshness": {
-    "last_watcher_run": "2026-08-03T15:44:18Z",
+    "last_watcher_run": "2026-08-03T15:56:33Z",
     "last_ok_by_jurisdiction": {
-      "UK": "2026-08-03T15:44:13Z",
-      "FR": "2026-08-03T15:44:14Z",
-      "DE": "2026-08-03T15:44:16Z",
-      "PL": "2026-08-03T15:44:17Z",
-      "BE": "2026-08-03T15:44:17Z",
-      "RO": "2026-08-03T15:44:18Z",
-      "EU": "2026-08-03T15:44:18Z"
+      "UK": "2026-08-03T15:56:20Z",
+      "FR": "2026-08-03T15:56:25Z",
+      "DE": "2026-08-03T15:56:26Z",
+      "PL": "2026-08-03T15:56:29Z",
+      "BE": "2026-08-03T15:56:30Z",
+      "RO": "2026-08-03T15:56:32Z",
+      "EU": "2026-08-03T15:56:33Z"
     },
     "failing_sources": []
   },
