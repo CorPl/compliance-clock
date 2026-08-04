@@ -3,18 +3,18 @@
   "website": "https://compliancecheck.uk",
   "contact": "a2a@compliancecheck.uk",
   "description": "Verified compliance deadlines and rule changes for small businesses (UK, FR, DE, PL, BE, RO, EU). Official sources only.",
-  "generated_at": "2026-08-04T13:26:16Z",
+  "generated_at": "2026-08-04T13:26:49Z",
   "disclaimer": "Information service reporting official sources; not legal or tax advice. Entries are append-only; corrections reference the id they supersede.",
   "freshness": {
-    "last_watcher_run": "2026-08-04T10:48:45Z",
+    "last_watcher_run": "2026-08-04T13:26:49Z",
     "last_ok_by_jurisdiction": {
-      "UK": "2026-08-04T10:48:31Z",
-      "FR": "2026-08-04T10:48:37Z",
-      "DE": "2026-08-04T10:48:38Z",
-      "PL": "2026-08-04T10:48:41Z",
-      "BE": "2026-08-04T10:48:41Z",
-      "RO": "2026-08-04T10:48:43Z",
-      "EU": "2026-08-04T10:48:44Z"
+      "UK": "2026-08-04T13:26:35Z",
+      "FR": "2026-08-04T13:26:42Z",
+      "DE": "2026-08-04T13:26:43Z",
+      "PL": "2026-08-04T13:26:45Z",
+      "BE": "2026-08-04T13:26:46Z",
+      "RO": "2026-08-04T13:26:48Z",
+      "EU": "2026-08-04T13:26:48Z"
     },
     "failing_sources": []
   },
