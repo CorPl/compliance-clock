@@ -1,56 +1,1689 @@
 {
   "project": "The Compliance Clock",
   "description": "Verified compliance deadlines and rule changes for small businesses (UK, FR, DE, PL, BE, RO, EU). Official sources only.",
-  "generated_at": "2026-08-04T10:34:32Z",
+  "generated_at": "2026-08-04T10:47:40Z",
   "disclaimer": "Information service reporting official sources; not legal or tax advice. Entries are append-only; corrections reference the id they supersede.",
   "freshness": {
-    "last_watcher_run": "2026-08-04T10:34:32Z",
+    "last_watcher_run": "2026-08-04T07:48:35Z",
     "last_ok_by_jurisdiction": {
-      "UK": "2026-08-04T10:33:51Z",
-      "FR": "2026-08-04T10:33:57Z",
-      "DE": "2026-08-04T10:33:58Z",
-      "PL": "2026-08-04T10:34:00Z",
+      "UK": "2026-08-04T07:48:14Z",
+      "FR": "2026-08-04T07:48:22Z",
+      "DE": "2026-08-04T07:48:23Z",
+      "PL": "2026-08-04T07:48:26Z",
       "BE": "2026-08-04T07:48:27Z",
-      "RO": "2026-08-04T10:34:32Z",
-      "EU": "2026-08-04T10:34:32Z"
+      "RO": "2026-08-04T07:48:30Z",
+      "EU": "2026-08-04T07:48:31Z"
     },
     "failing_sources": []
   },
-  "entry_count": 2,
+  "entry_count": 97,
   "entries": [
     {
-      "id": "uk-mtd-itsa-q1-2026",
+      "id": "uk-mtd-itsa-mandation-50k",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "rule-change",
+      "title": "Making Tax Digital for Income Tax begins for incomes over £50,000",
+      "summary": "From 6 April 2026, sole traders and landlords with qualifying income over £50,000 (in the 2024-25 tax year) must keep digital records and send quarterly updates to HMRC using compatible software.",
+      "who": "Sole traders and landlords with total self-employment and property income over £50,000",
+      "date": "2026-04-06",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+        "https://www.gov.uk/guidance/sign-up-your-business-for-making-tax-digital-for-income-tax"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Already in force. Over 864,000 people are in scope per HMRC's July 2026 press release."
+    },
+    {
+      "id": "uk-mtd-itsa-q1-2026-27",
       "jurisdiction": "UK",
       "domain": "tax-filing",
       "type": "deadline",
-      "title": "First Making Tax Digital quarterly update due",
-      "summary": "The first quarterly update under Making Tax Digital for Income Tax (covering 6 April to 5 July 2026) must reach HMRC by 7 August 2026.",
-      "who": "UK sole traders and landlords with qualifying income over £50,000",
+      "title": "MTD Income Tax quarterly update 1 (2026-27) due",
+      "summary": "First quarterly update under Making Tax Digital for Income Tax, covering 6 April to 5 July 2026 (or 1 April to 30 June 2026 if calendar quarters were elected), is due by 7 August 2026.",
+      "who": "Sole traders and landlords mandated into MTD for Income Tax from April 2026 (qualifying income over £50,000)",
       "date": "2026-08-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates",
+        "https://www.gov.uk/government/news/deadline-approaches-for-first-making-tax-digital-quarterly-update"
+      ],
+      "verified": "2026-08-04",
+      "notes": "No penalty points for late quarterly updates in the 2026-27 tax year, but updates must still be submitted before the tax return can be filed."
+    },
+    {
+      "id": "uk-mtd-itsa-q2-2026-27",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 2 (2026-27) due",
+      "summary": "Second quarterly update, cumulative from 6 April to 5 October 2026 (or 1 April to 30 September 2026 for calendar quarters), is due by 7 November 2026.",
+      "who": "Sole traders and landlords mandated into MTD for Income Tax (qualifying income over £50,000)",
+      "date": "2026-11-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Updates are cumulative from the start of the tax year, so earlier errors can be corrected in the next update."
+    },
+    {
+      "id": "uk-mtd-itsa-q3-2026-27",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 3 (2026-27) due",
+      "summary": "Third quarterly update, cumulative from 6 April 2026 to 5 January 2027 (or 1 April to 31 December 2026 for calendar quarters), is due by 7 February 2027.",
+      "who": "Sole traders and landlords mandated into MTD for Income Tax (qualifying income over £50,000)",
+      "date": "2027-02-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-mtd-itsa-q4-2026-27",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 4 (2026-27) due",
+      "summary": "Final quarterly update for 2026-27, covering the full year 6 April 2026 to 5 April 2027 (or 1 April 2026 to 31 March 2027 for calendar quarters), is due by 7 May 2027.",
+      "who": "Sole traders and landlords mandated into MTD for Income Tax (qualifying income over £50,000)",
+      "date": "2027-05-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-mtd-itsa-q1-2027-28",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 1 (2027-28) due",
+      "summary": "First quarterly update for the 2027-28 tax year, covering 6 April to 5 July 2027 (or 1 April to 30 June 2027 for calendar quarters), is due by 7 August 2027.",
+      "who": "Sole traders and landlords in MTD for Income Tax, including those newly mandated from April 2027 (income over £30,000)",
+      "date": "2027-08-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates",
+        "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax"
+      ],
+      "verified": "2026-08-04",
+      "notes": "From 2027-28 (the second year of MTD), penalty points apply to late quarterly updates."
+    },
+    {
+      "id": "uk-mtd-itsa-q2-2027-28",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 2 (2027-28) due",
+      "summary": "Second quarterly update for 2027-28, cumulative from 6 April to 5 October 2027 (or 1 April to 30 September 2027 for calendar quarters), is due by 7 November 2027.",
+      "who": "Sole traders and landlords in MTD for Income Tax (income over £30,000 from April 2027)",
+      "date": "2027-11-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-mtd-itsa-q3-2027-28",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 3 (2027-28) due",
+      "summary": "Third quarterly update for 2027-28, cumulative from 6 April 2027 to 5 January 2028 (or 1 April to 31 December 2027 for calendar quarters), is due by 7 February 2028.",
+      "who": "Sole traders and landlords in MTD for Income Tax (income over £30,000 from April 2027)",
+      "date": "2028-02-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-mtd-itsa-q4-2027-28",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "MTD Income Tax quarterly update 4 (2027-28) due",
+      "summary": "Final quarterly update for 2027-28, covering the full year 6 April 2027 to 5 April 2028 (or 1 April 2027 to 31 March 2028 for calendar quarters), is due by 7 May 2028.",
+      "who": "Sole traders and landlords in MTD for Income Tax (income over £30,000 from April 2027)",
+      "date": "2028-05-07",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-mtd-itsa-quarterly-pattern",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "recurring-rule",
+      "title": "MTD Income Tax quarterly updates: recurring 7 Aug / 7 Nov / 7 Feb / 7 May deadlines",
+      "summary": "Under MTD for Income Tax, cumulative quarterly updates for each income source are due by 7 August, 7 November, 7 February and 7 May every year. Businesses can elect calendar update periods (1 April, 1 July, 1 October, 1 January starts) before their first update; the deadlines stay the same.",
+      "who": "All sole traders and landlords mandated into MTD for Income Tax",
+      "date": null,
       "recurrence": "quarterly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Each update covers from the start of the tax year to the end of the update period, not just the last three months."
+    },
+    {
+      "id": "uk-mtd-itsa-threshold-30k",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "rule-change",
+      "title": "MTD Income Tax threshold drops to £30,000",
+      "summary": "From 6 April 2027, sole traders and landlords with qualifying income over £30,000 for the 2025-26 tax year must use Making Tax Digital for Income Tax.",
+      "who": "Sole traders and landlords with self-employment plus property income over £30,000 in 2025-26",
+      "date": "2027-04-06",
+      "recurrence": null,
       "status": "confirmed",
       "sources": [
         "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax"
       ],
-      "verified": "2026-08-03",
-      "notes": "Subsequent updates due 7 November 2026, 7 February 2027 and 7 May 2027."
+      "verified": "2026-08-04",
+      "notes": "HMRC guidance states this definitively: over £30,000 for 2025-26 means 'you will need to use it from 6 April 2027'."
     },
     {
-      "id": "fr-einvoicing-receive-2026",
+      "id": "uk-mtd-itsa-threshold-20k",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "rule-change",
+      "title": "MTD Income Tax threshold drops to £20,000",
+      "summary": "From 6 April 2028, the MTD for Income Tax threshold falls to £20,000 of qualifying income (tested on the 2026-27 tax year), bringing roughly 970,000 more people into scope.",
+      "who": "Sole traders and landlords with self-employment plus property income over £20,000 in 2026-27",
+      "date": "2028-04-06",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+        "https://www.gov.uk/government/publications/making-tax-digital-for-income-tax-self-assessment-reducing-the-mandation-threshold-from-30000-to-20000-from-april-2028/reduction-of-the-mandation-threshold-from-30000-to-20000-from-april-2028"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Announced at Spring Statement 2025. HMRC guidance (updated 26 March 2026) states it definitively, and a tax information and impact note of 24 March 2026 references 'The Income Tax (Digital Obligations) Regulations 2026', but no statutory instrument number could be confirmed on official pages, so marked 'announced' rather than 'confirmed in law'."
+    },
+    {
+      "id": "uk-mtd-itsa-return-2026-27",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "First MTD end-of-year tax return (2026-27) due via software",
+      "summary": "MTD for Income Tax users must submit their 2026-27 tax return using MTD-compatible software by 31 January 2028, after all four quarterly updates. Payment dates are unchanged from normal Self Assessment.",
+      "who": "Sole traders and landlords mandated into MTD for Income Tax from April 2026",
+      "date": "2028-01-31",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/submit-your-tax-return"
+      ],
+      "verified": "2026-08-04",
+      "notes": "HMRC: 'Making Tax Digital for Income Tax will not change the way you pay tax or the dates that payments are due.' This return replaces the end-of-period/final declaration step."
+    },
+    {
+      "id": "uk-mtd-itsa-penalty-points",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "recurring-rule",
+      "title": "MTD Income Tax points-based late submission penalties",
+      "summary": "Each late submission earns one penalty point; at 4 points a £200 penalty is charged, plus £200 for every further late submission. Points below the threshold expire automatically 24 months after the missed deadline.",
+      "who": "All taxpayers in MTD for Income Tax (quarterly updates and tax returns)",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax"
+      ],
+      "verified": "2026-08-04",
+      "notes": "After reaching 4 points, resetting to zero requires 12 months of on-time submissions plus filing outstanding returns from the previous 24 months."
+    },
+    {
+      "id": "uk-mtd-itsa-2026-27-easement",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "rule-change",
+      "title": "No penalties for late quarterly updates in first MTD year (2026-27)",
+      "summary": "HMRC will not charge penalty points for missed quarterly update deadlines during the 2026-27 tax year, but the 2026-27 tax return itself still attracts points if late, and quarterly updates must still be submitted before the return.",
+      "who": "Sole traders and landlords mandated into MTD for Income Tax from April 2026",
+      "date": "2026-04-06",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax"
+      ],
+      "verified": "2026-08-04",
+      "notes": "One-year easement only; penalty points apply to quarterly updates from the 2027-28 tax year."
+    },
+    {
+      "id": "uk-mtd-itsa-late-payment-penalties",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "recurring-rule",
+      "title": "Late payment penalties for MTD Income Tax users",
+      "summary": "For 2026-27, paying Self Assessment tax late costs 3% of the amount outstanding at day 15, a further 3% at day 30, then 10% per year accruing daily from day 31. HMRC guidance states these rates rise to 4% at days 15 and 30 for the 2027-28 tax year onwards.",
+      "who": "Taxpayers in MTD for Income Tax who pay their Self Assessment bill late",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax"
+      ],
+      "verified": "2026-08-04",
+      "notes": "No penalty if paid within 15 days of the due date or if a Time to Pay arrangement is agreed in time."
+    },
+    {
+      "id": "uk-sa-register-2026",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "Register for Self Assessment for 2025-26 by 5 October 2026",
+      "summary": "Anyone who needs to file a tax return for the 2025-26 tax year (6 April 2025 to 5 April 2026) and has not filed before, or did not need to file for 2024-25, must tell HMRC by 5 October 2026.",
+      "who": "New sole traders, landlords and others with untaxed income needing a 2025-26 return",
+      "date": "2026-10-05",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/register-for-self-assessment",
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": "HMRC: 'If you tell HMRC after 5 October 2026, you could get a penalty.'"
+    },
+    {
+      "id": "uk-sa-paper-2026",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "Paper Self Assessment return (2025-26) due 31 October 2026",
+      "summary": "HMRC must receive paper tax returns for the 2025-26 tax year by 11:59pm on 31 October 2026, or a late filing penalty applies.",
+      "who": "Anyone filing their 2025-26 Self Assessment return on paper",
+      "date": "2026-10-31",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-sa-taxcode-2026",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "File online by 30 December 2026 to pay via tax code",
+      "summary": "Taxpayers who want HMRC to collect Self Assessment tax owed (under £3,000) through their PAYE tax code must submit their 2025-26 online return by 11:59pm on 30 December 2026.",
+      "who": "Employees and pensioners with a Self Assessment bill they want collected through PAYE",
+      "date": "2026-12-30",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Optional earlier deadline; the standard online deadline remains 31 January 2027."
+    },
+    {
+      "id": "uk-sa-online-2027",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "Online Self Assessment return (2025-26) due 31 January 2027",
+      "summary": "Online tax returns for the 2025-26 tax year must be submitted by 11:59pm on 31 January 2027, or a late filing penalty applies.",
+      "who": "Anyone filing a 2025-26 Self Assessment return online",
+      "date": "2027-01-31",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-sa-payment-2027",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "Self Assessment tax payment and first payment on account due 31 January 2027",
+      "summary": "The balancing payment for 2025-26 tax, plus the first payment on account towards 2026-27 where applicable, must reach HMRC by 11:59pm on 31 January 2027.",
+      "who": "Self Assessment taxpayers with tax to pay for 2025-26",
+      "date": "2027-01-31",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Late payment penalties and interest apply after this date."
+    },
+    {
+      "id": "uk-sa-poa2-2027",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "deadline",
+      "title": "Second payment on account due 31 July 2027",
+      "summary": "The second payment on account towards the 2026-27 tax year is due by 31 July 2027 for Self Assessment taxpayers who make payments on account.",
+      "who": "Self Assessment taxpayers whose previous tax bill exceeded £1,000 and who pay on account",
+      "date": "2027-07-31",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": "The gov.uk deadlines page lists 31 July as the standing second deadline for payments on account."
+    },
+    {
+      "id": "uk-vat-registration-threshold",
+      "jurisdiction": "UK",
+      "domain": "vat",
+      "type": "recurring-rule",
+      "title": "VAT registration threshold: £90,000 rolling 12-month turnover",
+      "summary": "A business must register for VAT if taxable turnover for the last 12 months goes over £90,000, or if it expects to go over £90,000 in the next 30 days. Registration is due within 30 days of the end of the month the threshold was crossed.",
+      "who": "Any UK business (sole trader, partnership or company) with taxable turnover approaching £90,000",
+      "date": null,
+      "recurrence": "monthly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/vat-registration/when-to-register"
+      ],
+      "verified": "2026-08-04",
+      "notes": "The 12-month test is rolling, not tied to the calendar or accounting year — check turnover every month. Effective registration date is the first day of the second month after exceeding the threshold."
+    },
+    {
+      "id": "uk-vat-return-pattern",
+      "jurisdiction": "UK",
+      "domain": "vat",
+      "type": "recurring-rule",
+      "title": "VAT returns and payment due 1 month and 7 days after each quarter",
+      "summary": "VAT-registered businesses usually file a return every 3 months; the return and payment are due 1 calendar month and 7 days after the end of the accounting period, even if that falls on a weekend or bank holiday.",
+      "who": "All VAT-registered businesses (unless on annual accounting or other special schemes)",
+      "date": null,
+      "recurrence": "quarterly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/vat-returns/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": "A return must be submitted even if there is no VAT to pay or reclaim. Annual accounting scheme users have different dates."
+    },
+    {
+      "id": "uk-vat-mtd-digital-records",
+      "jurisdiction": "UK",
+      "domain": "vat",
+      "type": "recurring-rule",
+      "title": "Making Tax Digital for VAT: digital records and software filing",
+      "summary": "All VAT-registered businesses must follow Making Tax Digital for VAT — keeping records digitally and filing returns through compatible software. Enrolment is automatic on VAT registration.",
+      "who": "All VAT-registered businesses, regardless of turnover",
+      "date": null,
+      "recurrence": "quarterly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/vat-record-keeping"
+      ],
+      "verified": "2026-08-04",
+      "notes": "gov.uk: 'All VAT-registered businesses should now be signed up for Making Tax Digital for VAT' — no separate sign-up needed."
+    },
+    {
+      "id": "uk-ch-idv-mandatory-start",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "rule-change",
+      "title": "Companies House identity verification became a legal requirement",
+      "summary": "From 18 November 2025, identity verification is a legal requirement for company directors and people with significant control (PSCs). This date started a 12-month transition period for existing officers.",
+      "who": "All directors and PSCs of UK companies; new directors must verify at or before appointment",
+      "date": "2025-11-18",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+        "https://changestoukcompanylaw.campaign.gov.uk/identity-verification/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Since 1 June 2026 company secretaries no longer need to verify. Verification is free via GOV.UK One Login or through an Authorised Corporate Service Provider."
+    },
+    {
+      "id": "uk-ch-idv-directors-transition",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "deadline",
+      "title": "Existing directors: verify identity by next confirmation statement (transition ends November 2026)",
+      "summary": "Existing directors must verify and give Companies House their personal code as part of the company's next confirmation statement filed during the 12-month transition that began 18 November 2025. The company cannot file its confirmation statement unless all directors are verified.",
+      "who": "Directors appointed before 18 November 2025",
+      "date": "2026-11-18",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house",
+        "https://changestoukcompanylaw.campaign.gov.uk/identity-verification/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "The individual deadline is the company's confirmation statement date, not a single national date; 18 November 2026 is the end of the 12-month transition window stated by Companies House. Each director's real deadline may be earlier."
+    },
+    {
+      "id": "uk-ch-idv-psc-birth-month",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "recurring-rule",
+      "title": "Existing PSCs (not directors): verify in first 14 days of birth month",
+      "summary": "During the transition year, a person with significant control who is not also a director must give Companies House their personal code within the first 14 days of their birth month (e.g. birthday 22 January means the window starts 1 January).",
+      "who": "PSCs registered before 18 November 2025 who are not directors of that company",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house"
+      ],
+      "verified": "2026-08-04",
+      "notes": "PSCs who are also directors instead have 14 days starting the day after the company's confirmation statement date."
+    },
+    {
+      "id": "uk-ch-idv-psc-director",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "recurring-rule",
+      "title": "PSCs who are also directors: 14 days from confirmation statement date",
+      "summary": "A PSC who is also a director of the same company must provide their personal code as a PSC within 14 days starting the day after the company's confirmation statement date.",
+      "who": "Individuals who are both a director and a PSC of the same company",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house"
+      ],
+      "verified": "2026-08-04",
+      "notes": "New PSCs added after 18 November 2025 must verify when first added to the register or within 14 days of being added."
+    },
+    {
+      "id": "uk-ch-idv-filers",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "rule-change",
+      "title": "Identity verification extends to people who file at Companies House",
+      "summary": "Companies House will extend identity verification to anyone filing documents on behalf of companies from no earlier than November 2026.",
+      "who": "Anyone who delivers filings to Companies House, including accountants and agents (who may instead register as ACSPs)",
+      "date": "2026-11-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://changestoukcompanylaw.campaign.gov.uk/identity-verification/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Companies House states 'from no earlier than November 2026' — the exact commencement date has not been announced; the date given here is a placeholder for the earliest possible start."
+    },
+    {
+      "id": "uk-ch-confirmation-statement",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "recurring-rule",
+      "title": "Confirmation statement due within 14 days of each 12-month review period",
+      "summary": "Every company, including dormant and non-trading companies, must file a confirmation statement at least once a year, within 14 days of the end of its 12-month review period.",
+      "who": "All UK registered companies",
+      "date": null,
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/confirmation-statement-guidance"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Failure to file can lead to a fine of up to £5,000 and the company being struck off. From 18 November 2025 the statement cannot be filed unless all directors are identity-verified."
+    },
+    {
+      "id": "uk-ch-accounts-9-months",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "recurring-rule",
+      "title": "Annual accounts due at Companies House 9 months after year end",
+      "summary": "A private limited company must file annual accounts with Companies House within 9 months of its financial year end. First accounts are due 21 months after incorporation.",
+      "who": "All private limited companies, including micro-entities and dormant companies",
+      "date": null,
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/prepare-file-annual-accounts-for-limited-company"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Automatic late filing penalties apply and double if accounts are late two years running."
+    },
+    {
+      "id": "uk-ch-software-only-filing-2028",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "rule-change",
+      "title": "Software-only accounts filing at Companies House moved to April 2028",
+      "summary": "All UK registered companies will have to file accounts in iXBRL format using commercial software from April 2028. This was previously planned for 1 April 2027 but Companies House announced the later date on 9 June 2026.",
+      "who": "All UK registered companies filing accounts, including micro-entities and dormant companies",
+      "date": "2028-04-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/government/news/companies-house-to-bring-in-changes-to-accounts-filing-from-april-2028"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Companies House says businesses get 'one full accounting year, plus 9 months (21 months) to get ready'. WebFiling and paper routes for accounts close at that point; the announcement gives 'April 2028' without confirming an exact day, so 1 April 2028 is indicative."
+    },
+    {
+      "id": "uk-ch-small-company-pnl-2028",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "rule-change",
+      "title": "Small companies and micro-entities must file profit and loss accounts from April 2028",
+      "summary": "From April 2028, small companies and micro-entities will have to file their profit and loss account with Companies House (with an option to opt out of public display), ending the current filleted-accounts practice.",
+      "who": "Small companies and micro-entities filing accounts at Companies House",
+      "date": "2028-04-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/government/news/companies-house-to-bring-in-changes-to-accounts-filing-from-april-2028"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Originally planned for April 2027; moved to April 2028 by the Companies House announcement of 9 June 2026. Exact commencement day not yet stated."
+    },
+    {
+      "id": "uk-ch-abridged-accounts-removed-2028",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "rule-change",
+      "title": "Option to file abridged accounts removed from April 2028",
+      "summary": "As part of the April 2028 accounts reforms, companies will lose the option to file abridged accounts at Companies House.",
+      "who": "Small companies currently filing abridged accounts",
+      "date": "2028-04-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/government/news/companies-house-to-bring-in-changes-to-accounts-filing-from-april-2028"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Part of the same package as software-only filing and small-company P&L filing, all moved from April 2027 to April 2028."
+    },
+    {
+      "id": "uk-ch-fees-feb-2026",
+      "jurisdiction": "UK",
+      "domain": "company-register",
+      "type": "rule-change",
+      "title": "Companies House fees changed 1 February 2026",
+      "summary": "Some Companies House fees changed on 1 February 2026, affecting the cost of incorporations and filings.",
+      "who": "Anyone incorporating a company or filing at Companies House",
+      "date": "2026-02-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://changestoukcompanylaw.campaign.gov.uk/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Check the current fees list on gov.uk before filing."
+    },
+    {
+      "id": "uk-paye-rti-fps",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "recurring-rule",
+      "title": "RTI: send Full Payment Submission on or before every payday",
+      "summary": "Employers must report pay and deductions to HMRC in a Full Payment Submission (FPS) on or before each payday, even if they pay HMRC quarterly.",
+      "who": "All employers running PAYE, including micro employers with one employee",
+      "date": null,
+      "recurrence": "monthly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/running-payroll/reporting-to-hmrc"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-paye-monthly-payment",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "recurring-rule",
+      "title": "Pay PAYE and NIC to HMRC by the 22nd of the next tax month",
+      "summary": "Employers must pay HMRC the PAYE tax and National Insurance owed by the 22nd of the next tax month if paying electronically, or the 19th if paying by post.",
+      "who": "All employers operating PAYE (small employers may qualify to pay quarterly)",
+      "date": null,
+      "recurrence": "monthly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/running-payroll/reporting-to-hmrc"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-employer-p60-2027",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "deadline",
+      "title": "Give employees their P60 by 31 May",
+      "summary": "Employers must give every employee working for them on 5 April a P60 for the tax year by 31 May. The next deadline is 31 May 2027 for the 2026-27 tax year.",
+      "who": "All employers with employees on payroll at 5 April",
+      "date": "2027-05-31",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/payroll-annual-reporting"
+      ],
+      "verified": "2026-08-04",
+      "notes": "The 31 May 2026 deadline for 2025-26 has already passed."
+    },
+    {
+      "id": "uk-employer-p11d-2027",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "deadline",
+      "title": "Report expenses and benefits (P11D and P11D(b)) by 6 July",
+      "summary": "Employers must report taxable expenses and benefits to HMRC and give employees a copy of their information by 6 July following the tax year. Next deadline: 6 July 2027 for 2026-27.",
+      "who": "Employers providing taxable benefits (company cars, private medical insurance, etc.) not fully payrolled",
+      "date": "2027-07-06",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/employer-reporting-expenses-benefits/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Penalty of £100 per 50 employees for each month or part month a P11D(b) is late."
+    },
+    {
+      "id": "uk-employer-class1a-2027",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "deadline",
+      "title": "Pay Class 1A National Insurance on benefits by 22 July",
+      "summary": "Class 1A National Insurance on employee benefits must reach HMRC by 22 July (electronic) or 19 July (cheque) following the tax year. Next deadline: 22 July 2027 for 2026-27.",
+      "who": "Employers who provided taxable benefits in the tax year",
+      "date": "2027-07-22",
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/employer-reporting-expenses-benefits/deadlines"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-nlw-april-2026",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "rule-change",
+      "title": "National Living Wage rose to £12.71 on 1 April 2026",
+      "summary": "From 1 April 2026 the National Living Wage (21 and over) is £12.71 per hour; 18-20 rate £10.85; under-18 and apprentice rates £8.00.",
+      "who": "All employers, including micro employers; applies to almost all workers of the relevant ages",
+      "date": "2026-04-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/national-minimum-wage-rates"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Up from £12.21 (21+) in 2025-26. Apprentice rate applies if under 19, or 19+ in the first year of the apprenticeship."
+    },
+    {
+      "id": "uk-nmw-annual-uprating",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "recurring-rule",
+      "title": "Minimum wage rates change every 1 April",
+      "summary": "National Living Wage and National Minimum Wage rates change on 1 April every year; employers must apply the new rates from the first pay reference period starting on or after that date.",
+      "who": "All employers paying at or near minimum wage",
+      "date": null,
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/national-minimum-wage-rates"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Expect new rates from 1 April 2027, typically announced at the autumn Budget."
+    },
+    {
+      "id": "uk-era-april-2026-phase",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "rule-change",
+      "title": "Employment Rights Act: April 2026 measures in force",
+      "summary": "From 6 April 2026: statutory sick pay payable from day one with the lower earnings limit removed, day-one paternity leave and unpaid parental leave, and the maximum collective redundancy protective award doubled.",
+      "who": "All employers, including micro employers; SSP change especially affects low-paid and part-time staff",
+      "date": "2026-04-06",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Government timeline update (published 3 February 2026, updated 16 July 2026) confirms these took effect from 6 April 2026."
+    },
+    {
+      "id": "uk-era-october-2026-phase",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "rule-change",
+      "title": "Employment Rights Act: harassment duties from October 2026",
+      "summary": "From October 2026, employers must take 'all reasonable steps' to prevent sexual harassment of staff and become liable for harassment of employees by third parties such as customers.",
+      "who": "All employers, regardless of size",
+      "date": "2026-10-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+      ],
+      "verified": "2026-08-04",
+      "notes": "The government timeline gives 'October 2026' without a specific day; commencement regulations pending. 1 October 2026 is indicative."
+    },
+    {
+      "id": "uk-era-jan-2027-unfair-dismissal",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "rule-change",
+      "title": "Unfair dismissal qualifying period cut to 6 months from 1 January 2027",
+      "summary": "For dismissals from 1 January 2027, the qualifying period for unfair dismissal claims reduces from 2 years to 6 months, and compensatory awards are uncapped.",
+      "who": "All employers; particularly significant for small employers hiring new staff in late 2026",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Per the government's revised timeline (updated 16 July 2026). This replaces the originally floated 'day-one' right for this stage."
+    },
+    {
+      "id": "uk-era-jan-2027-fire-rehire",
+      "jurisdiction": "UK",
+      "domain": "employer",
+      "type": "rule-change",
+      "title": "Fire and rehire protections from January 2027",
+      "summary": "Restrictions on dismissing employees for refusing changes to their contract (fire and rehire) take effect in January 2027, having been moved from the originally planned October 2026.",
+      "who": "All employers seeking to vary employment contracts",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Later measures — bereavement leave (including pregnancy loss), guaranteed-hours rights for zero-hours workers, and umbrella company regulation — are listed as '2027 onwards' with timings subject to consultation."
+    },
+    {
+      "id": "uk-ct-payment-9m1d",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "recurring-rule",
+      "title": "Corporation Tax payment due 9 months and 1 day after year end",
+      "summary": "Companies with taxable profits up to £1.5 million must pay Corporation Tax 9 months and 1 day after the end of their accounting period.",
+      "who": "All UK companies with profits up to £1.5 million (i.e. virtually all micro and small companies)",
+      "date": null,
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/pay-corporation-tax"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Note the payment deadline falls before the tax return filing deadline."
+    },
+    {
+      "id": "uk-ct-return-12m",
+      "jurisdiction": "UK",
+      "domain": "tax-filing",
+      "type": "recurring-rule",
+      "title": "Company Tax Return due 12 months after the accounting period",
+      "summary": "The Company Tax Return (CT600) must be filed with HMRC within 12 months of the end of the accounting period it covers; late filing triggers automatic penalties.",
+      "who": "All UK companies within the charge to Corporation Tax, including micro companies",
+      "date": null,
+      "recurrence": "annual",
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/company-tax-returns"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "uk-rra-tenancy-reforms-1-may-2026",
+      "jurisdiction": "UK",
+      "domain": "landlord",
+      "type": "rule-change",
+      "title": "Renters' Rights Act tenancy reforms in force: section 21 abolished from 1 May 2026",
+      "summary": "From 1 May 2026, landlords in England can no longer issue section 21 'no-fault' eviction notices for existing or new tenancies; possession requires specific grounds under section 8.",
+      "who": "All private landlords and letting agents in England, including single-property landlords",
+      "date": "2026-05-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/renting-out-your-property-guidance-for-landlords-and-letting-agents/giving-notice-of-possession-to-tenants-before-1-may-2026"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Renters' Rights Act 2025 received Royal Assent on 27 October 2025; the main tenancy reforms commenced 1 May 2026. England only."
+    },
+    {
+      "id": "uk-rra-s21-proceedings-deadline",
+      "jurisdiction": "UK",
+      "domain": "landlord",
+      "type": "deadline",
+      "title": "Deadline passed: court proceedings on pre-1 May 2026 section 21 notices by 31 July 2026",
+      "summary": "Landlords who served a section 21 (or section 8) notice before 1 May 2026 had to start court possession proceedings by the earlier of the notice's expiry or 31 July 2026. Such notices can no longer be used to apply to court.",
+      "who": "Private landlords in England holding section 21 notices served before 1 May 2026",
+      "date": "2026-07-31",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gov.uk/guidance/renting-out-your-property-guidance-for-landlords-and-letting-agents/giving-notice-of-possession-to-tenants-before-1-may-2026"
+      ],
+      "verified": "2026-08-04",
+      "notes": "This deadline has now passed (as of 4 August 2026). gov.uk: notices whose earliest possession-proceedings date was on or after 1 August 2026 cannot be used. Later Renters' Rights Act stages (landlord database, ombudsman, Decent Homes Standard) have no confirmed commencement dates on gov.uk yet."
+    },
+    {
+      "id": "fr-receive-mandate-2026",
       "jurisdiction": "FR",
       "domain": "e-invoicing",
       "type": "deadline",
-      "title": "All French companies must be able to receive e-invoices",
-      "summary": "From 1 September 2026 every company registered in France must be able to receive electronic invoices (facturation électronique) via the official platform network.",
-      "who": "All VAT-registered businesses in France, regardless of size",
+      "title": "France: all companies must be able to receive e-invoices",
+      "summary": "From 1 September 2026, every French VAT-registered business, whatever its size, must be able to receive electronic invoices under the facturation electronique reform, via an approved platform (plateforme agreee).",
+      "who": "All VAT-registered businesses established in France, including micro-entrepreneurs",
+      "date": "2026-09-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation",
+        "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Confirmed on impots.gouv.fr: 'A compter du 1er septembre 2026, toutes les entreprises' must receive invoices electronically. Businesses must be connected to an approved platform to receive."
+    },
+    {
+      "id": "fr-issue-large-eti-2026",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "France: large and mid-size companies must issue e-invoices",
+      "summary": "From 1 September 2026, large enterprises and intermediate-size enterprises (ETI) must issue their domestic B2B invoices as structured electronic invoices through an approved platform.",
+      "who": "Grandes entreprises and ETI (intermediate-size enterprises)",
+      "date": "2026-09-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation"
+      ],
+      "verified": "2026-08-04",
+      "notes": "SMEs and micro-enterprises get an extra year (1 September 2027) for issuing. Failure to issue electronically: EUR 50 fine per invoice, capped at EUR 15,000 per calendar year (art. 1737 CGI)."
+    },
+    {
+      "id": "fr-issue-sme-2027",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "France: SMEs and micro-enterprises must issue e-invoices",
+      "summary": "From 1 September 2027, French PME and micro-enterprises must issue all domestic B2B invoices as structured electronic invoices via an approved platform, completing the facturation electronique rollout.",
+      "who": "PME (SMEs) and micro-enterprises, including micro-entrepreneurs and VAT-exempt franchise-en-base businesses",
+      "date": "2027-09-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation"
+      ],
+      "verified": "2026-08-04",
+      "notes": "These businesses must already be able to RECEIVE e-invoices from 1 September 2026."
+    },
+    {
+      "id": "fr-ereporting-large-eti-2026",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "France: e-reporting starts for large and mid-size companies",
+      "summary": "From 1 September 2026, large enterprises and ETI must transmit transaction and payment data (e-reporting) for B2C and cross-border sales to the tax administration via their approved platform.",
+      "who": "Grandes entreprises and ETI",
+      "date": "2026-09-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation"
+      ],
+      "verified": "2026-08-04",
+      "notes": "E-reporting covers transactions not subject to the e-invoicing mandate (B2C, international)."
+    },
+    {
+      "id": "fr-ereporting-sme-2027",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "France: e-reporting starts for SMEs and micro-enterprises",
+      "summary": "From 1 September 2027, PME and micro-enterprises must transmit transaction and payment data (e-reporting) to the administration via their approved platform.",
+      "who": "PME (SMEs) and micro-enterprises",
+      "date": "2027-09-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Failure to transmit: EUR 500 fine per transmission, capped at EUR 15,000 per calendar year (art. 1788 D CGI, current version)."
+    },
+    {
+      "id": "fr-approved-platform-model",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "France: businesses must use an approved platform (PDP)",
+      "summary": "Under the French reform, e-invoices must be exchanged and data transmitted to the administration through a plateforme agreee (approved platform); the DGFiP publishes the official list of approved platforms.",
+      "who": "All businesses in scope of the reform — each must choose an approved platform before 1 September 2026",
       "date": "2026-09-01",
       "recurrence": null,
       "status": "confirmed",
       "sources": [
         "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique"
       ],
-      "verified": "2026-08-03",
-      "notes": "Issuing obligation phases in later; large and mid-sized companies must also issue from this date."
+      "verified": "2026-08-04",
+      "notes": "The list of platforms approved by the administration is published on impots.gouv.fr; free public-portal invoicing (ex-PPF) was dropped as an exchange channel."
+    },
+    {
+      "id": "fr-formats",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "France: accepted structured invoice formats",
+      "summary": "French e-invoices must use a structured format — UBL, CII or mixed format (Factur-X) — and be transmitted via an approved platform, which also forwards data to the administration.",
+      "who": "All businesses issuing domestic B2B invoices under the mandate",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/EV/2_gestion/290_facturation_electronique/guide_pratique_facturation_electronique.pdf"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Formats per the official 'guide pratique de demarrage au 1er septembre 2026' on impots.gouv.fr: UBL, CII or mixed (Factur-X)."
+    },
+    {
+      "id": "fr-penalty-einvoicing",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "France: fines for not issuing electronic invoices",
+      "summary": "Article 1737 CGI sets a fine of EUR 50 per invoice not issued in electronic form under article 289 bis, capped at EUR 15,000 per calendar year; approved platforms face EUR 50 per invoice capped at EUR 45,000.",
+      "who": "Any business required to issue e-invoices; approved platforms for their transmission failures",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046869201"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Verified on Legifrance: 'amende de 50 EUR par facture', annual cap EUR 15,000 (taxpayer) / EUR 45,000 (platform)."
+    },
+    {
+      "id": "fr-penalty-ereporting",
+      "jurisdiction": "FR",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "France: fines for e-reporting failures",
+      "summary": "Article 1788 D CGI fines taxable persons EUR 500 per missed e-reporting transmission (articles 290 and 290 A), capped at EUR 15,000 per calendar year; approved platforms face EUR 750 per transmission capped at EUR 100,000.",
+      "who": "All businesses subject to e-reporting; approved platforms",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046195593"
+      ],
+      "verified": "2026-08-04",
+      "notes": "First offence waived if corrected spontaneously or within 30 days of a first request (right to error)."
+    },
+    {
+      "id": "de-receive-2025",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Germany: obligation to receive e-invoices in force",
+      "summary": "Since 1 January 2025, all German businesses must be able to receive and process E-Rechnungen (structured EN 16931 invoices) for domestic B2B transactions — recipient consent is no longer required.",
+      "who": "All businesses established in Germany receiving domestic B2B invoices, regardless of size",
+      "date": "2025-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://e-rechnung-bund.de/e-rechnung/e-rechnung-zwischen-unternehmen-b2b/",
+        "https://www.gesetze-im-internet.de/ustg_1980/__14.html"
+      ],
+      "verified": "2026-08-04",
+      "notes": "An email inbox is sufficient to receive; a PDF is NOT an E-Rechnung — the format must be structured per EN 16931 (§14 UStG)."
+    },
+    {
+      "id": "de-issue-2027-800k",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Germany: e-invoice issuing becomes mandatory (turnover above EUR 800k)",
+      "summary": "The transitional rule allowing paper or non-compliant formats ends on 31 December 2026; from 1 January 2027, businesses with prior-year total turnover above EUR 800,000 must issue structured E-Rechnungen for domestic B2B sales.",
+      "who": "German businesses with total turnover (Gesamtumsatz, §19(2) UStG) above EUR 800,000 in the previous calendar year",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gesetze-im-internet.de/ustg_1980/__27.html"
+      ],
+      "verified": "2026-08-04",
+      "notes": "§27(38) UStG: paper/other formats allowed only for supplies made before 1 January 2027; smaller businesses get one more year."
+    },
+    {
+      "id": "de-issue-2028-all",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Germany: e-invoice issuing mandatory for all businesses",
+      "summary": "From 1 January 2028, every German business — including those at or below EUR 800,000 turnover — must issue structured E-Rechnungen for domestic B2B transactions; the small-business transitional period ends 31 December 2027.",
+      "who": "All German businesses, including those with prior-year turnover up to EUR 800,000",
+      "date": "2028-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gesetze-im-internet.de/ustg_1980/__27.html"
+      ],
+      "verified": "2026-08-04",
+      "notes": "§27(38) UStG permits non-compliant formats 'bis zum 31. Dezember 2027' only where the issuer's prior-year Gesamtumsatz did not exceed EUR 800,000."
+    },
+    {
+      "id": "de-edi-transition-2027",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Germany: EDI invoicing transition ends",
+      "summary": "Invoices exchanged via classic EDI (Recommendation 94/820/EC) that do not meet the EN 16931 e-invoice definition may only be used until 31 December 2027 for domestic B2B supplies.",
+      "who": "Businesses using legacy EDI invoice exchange with their trading partners",
+      "date": "2027-12-31",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gesetze-im-internet.de/ustg_1980/__27.html"
+      ],
+      "verified": "2026-08-04",
+      "notes": "§27(38) UStG; after this date EDI formats must allow correct and complete extraction of required data compatible with EN 16931."
+    },
+    {
+      "id": "de-formats",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Germany: accepted e-invoice formats (XRechnung, ZUGFeRD)",
+      "summary": "A German E-Rechnung must be issued, transmitted and received in a structured format complying with EN 16931 — in practice XRechnung or ZUGFeRD (from 2.x) — or a mutually agreed format allowing complete data extraction.",
+      "who": "All businesses issuing or receiving domestic B2B e-invoices",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://www.gesetze-im-internet.de/ustg_1980/__14.html",
+        "https://e-rechnung-bund.de/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "§14(1) UStG references EN 16931 / Directive 2014/55/EU syntaxes; e-rechnung-bund.de lists XRechnung and ZUGFeRD 2.2.0 as accepted standards."
+    },
+    {
+      "id": "de-b2g-federal",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Germany: e-invoices required for federal contracts",
+      "summary": "Since 27 November 2020, all suppliers to the federal administration must submit invoices electronically (E-Rechnungsverordnung) for direct orders from EUR 1,000 net, via platforms such as OZG-RE.",
+      "who": "Any business supplying the German federal administration with orders of EUR 1,000 net or more",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://e-rechnung-bund.de/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Formats: XRechnung (primary) or ZUGFeRD 2.2.0; registration on the OZG-RE platform is free."
+    },
+    {
+      "id": "de-kleinunternehmer-exemption",
+      "jurisdiction": "DE",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Germany: small-business (Kleinunternehmer) issuing exemption",
+      "summary": "Kleinunternehmer under §19 UStG are reported to be exempt from the obligation to issue E-Rechnungen (per the 2024 annual tax act) but must still be able to receive them.",
+      "who": "Kleinunternehmer (small businesses under the §19 UStG scheme)",
+      "date": null,
+      "recurrence": null,
+      "status": "unverified",
+      "sources": [
+        "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html"
+      ],
+      "verified": "2026-08-04",
+      "notes": "bundesfinanzministerium.de blocks automated fetching, so the exemption (§34a UStDV / JStG 2024) could not be confirmed on an accessible official page; receive obligation from 1 January 2025 is confirmed for all businesses."
+    },
+    {
+      "id": "pl-ksef-large-2026",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Poland: KSeF mandatory for largest taxpayers",
+      "summary": "From 1 February 2026, taxpayers whose 2024 sales (including VAT) exceeded PLN 200 million must issue structured invoices in the national KSeF system (KSeF 2.0); KSeF 1.0 is switched off the same day.",
+      "who": "Businesses with 2024 sales including VAT above PLN 200 million",
+      "date": "2026-02-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/ksef-news/zasady-obowiazywania-ksef-i-przepisy-prawne/",
+        "https://ksef.podatki.gov.pl/etapy-wdrozenia-ksef/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "All businesses (any size) must be able to receive KSeF invoices from this date. FA(3) logical structure binding from 1 February 2026."
+    },
+    {
+      "id": "pl-ksef-all-2026",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Poland: KSeF mandatory for all other businesses",
+      "summary": "From 1 April 2026, KSeF structured invoicing became mandatory for all remaining entrepreneurs, except the smallest firms whose invoiced monthly sales do not exceed PLN 10,000 gross.",
+      "who": "All VAT taxpayers not covered by the February 2026 phase, with monthly invoiced sales above PLN 10,000",
+      "date": "2026-04-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/etapy-wdrozenia-ksef/",
+        "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/podstawy-prawne-oraz-kluczowe-terminy/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Digitally excluded micro-firms (≤ PLN 10,000/month) may keep issuing paper or ordinary electronic invoices until end of 2026."
+    },
+    {
+      "id": "pl-ksef-smallest-2027",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Poland: KSeF mandatory for the smallest businesses",
+      "summary": "From 1 January 2027, KSeF becomes mandatory for the previously exempt smallest businesses — those with invoiced monthly sales of up to PLN 10,000 gross.",
+      "who": "Micro-businesses with monthly invoiced sales up to PLN 10,000 gross",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/etapy-wdrozenia-ksef/",
+        "https://ksef.podatki.gov.pl/ksef-news/zasady-obowiazywania-ksef-i-przepisy-prawne/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "This completes the mandatory KSeF rollout."
+    },
+    {
+      "id": "pl-ksef-penalties-2027",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Poland: KSeF financial penalties start",
+      "summary": "Monetary penalties for KSeF errors (failing to issue in KSeF, non-compliant offline invoices, late transmission) apply only from 1 January 2027; 2026 is an official no-penalty transition period.",
+      "who": "All taxpayers obliged to use KSeF",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/ksef-news/zasady-obowiazywania-ksef-i-przepisy-prawne/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Official wording: 'Kary te beda stosowane dopiero od 1 stycznia 2027 r.' — no financial penalties for KSeF-related errors during 2026."
+    },
+    {
+      "id": "pl-ksef-cash-register-2026",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Poland: cash-register invoices allowed until end of 2026",
+      "summary": "Invoices issued from cash registers and fiscal receipts with the buyer's NIP up to PLN 450 (treated as simplified invoices) remain permitted until 31 December 2026 despite the KSeF mandate.",
+      "who": "Businesses issuing invoices via fiscal cash registers",
+      "date": "2026-12-31",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/podstawy-prawne-oraz-kluczowe-terminy/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "From 2027 these must move into KSeF."
+    },
+    {
+      "id": "pl-ksef-payment-number-2027",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Poland: KSeF number required in payments",
+      "summary": "The obligation to quote the KSeF invoice number when paying for a structured invoice (including split-payment MPP) between active VAT taxpayers is deferred until the end of 2026, so applies from 1 January 2027.",
+      "who": "Active VAT taxpayers paying for KSeF invoices, including split-payment transfers",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/podstawy-prawne-oraz-kluczowe-terminy/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Official page: obligation deferred 'do konca 2026 r.'"
+    },
+    {
+      "id": "pl-ksef-offline24",
+      "jurisdiction": "PL",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Poland: offline24 fallback mode in KSeF",
+      "summary": "KSeF 2.0 provides an offline24 mode letting businesses issue an invoice outside the system during connectivity problems and transmit it to KSeF afterwards.",
+      "who": "All KSeF users experiencing transmission or connectivity issues",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/podstawy-prawne-oraz-kluczowe-terminy/"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Penalties for offline-mode errors only apply from 1 January 2027."
+    },
+    {
+      "id": "be-b2b-peppol-2026",
+      "jurisdiction": "BE",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Belgium: structured B2B e-invoicing mandatory",
+      "summary": "Since 1 January 2026, any invoice between Belgian VAT-liable enterprises that is drawn up, issued or sent must be a structured electronic invoice exchanged via the Peppol network (Law of 6 February 2024).",
+      "who": "All Belgian enterprises liable to VAT in B2B transactions, including those under the small-business exemption scheme (turnover up to EUR 25,000)",
+      "date": "2026-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://einvoice.belgium.be/en/FAQ/general-questions-b2b",
+        "https://finance.belgium.be/en/enterprises/vat/e-invoicing"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Official site mentions a tolerance period during the first three months of 2026. Both supplier and customer risk penalties for non-compliance; exact fine amounts are not published on the official FAQ (administrative VAT fine scale applies)."
+    },
+    {
+      "id": "be-scope-exemptions",
+      "jurisdiction": "BE",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Belgium: who is in and out of scope of the B2B mandate",
+      "summary": "The Belgian e-invoicing obligation covers VAT-liable enterprises, including small businesses under the EUR 25,000 exemption scheme and farmers under the special agricultural scheme (at least for receiving); businesses invoicing only private individuals are out of scope.",
+      "who": "Belgian VAT-liable enterprises; excluded: B2C-only businesses and non-established foreign VAT registrations without a permanent establishment",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://einvoice.belgium.be/en/FAQ/general-questions-b2b"
+      ],
+      "verified": "2026-08-04",
+      "notes": "An official online tool on einvoice.belgium.be lets a company check whether it is covered."
+    },
+    {
+      "id": "be-selfbilling-tolerance-2026",
+      "jurisdiction": "BE",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "Belgium: self-billing flexibility ends",
+      "summary": "A flexibility period for processing self-billing invoices under the Belgian e-invoicing mandate runs until 30 June 2026, provided software providers can show implementation work is ongoing.",
+      "who": "Belgian businesses using self-billing arrangements",
+      "date": "2026-06-30",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://einvoice.belgium.be/en/FAQ/general-questions-b2b"
+      ],
+      "verified": "2026-08-04",
+      "notes": "After this date self-billing invoices must also flow as structured e-invoices."
+    },
+    {
+      "id": "be-ereporting-2028",
+      "jurisdiction": "BE",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Belgium: near-real-time e-reporting planned for 2028",
+      "summary": "Belgium plans a near-real-time e-reporting obligation for domestic B2B transactions, automated from the structured e-invoice, replacing the annual customer listing; it is in the federal coalition agreement with 2028 timing but not yet law.",
+      "who": "Belgian VAT-liable enterprises transacting B2B domestically",
+      "date": null,
+      "recurrence": null,
+      "status": "announced",
+      "sources": [
+        "https://einvoice.belgium.be/en/FAQ/general-questions-about-e-reporting"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Official FAQ: 'included in the federal coalition agreement (timing: 2028) but has yet to be transposed into Belgian law'. As of 1 January 2026 no invoice data is sent to the administration. Intra-EU transactions will follow ViDA rules by 1 July 2030."
+    },
+    {
+      "id": "be-peppol-network",
+      "jurisdiction": "BE",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Belgium: Peppol is the default exchange network",
+      "summary": "Belgian structured e-invoices are exchanged via Peppol, the international network for electronic documents; businesses need software or a service provider connected to Peppol.",
+      "who": "All Belgian enterprises subject to the B2B e-invoicing obligation",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://einvoice.belgium.be/en/FAQ/general-questions-electronic-facturation"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Peppol BIS is the standard format in practice; parties may agree another EN 16931-compliant format."
+    },
+    {
+      "id": "ro-efactura-b2b",
+      "jurisdiction": "RO",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Romania: RO e-Factura mandatory for B2B invoices",
+      "summary": "All invoices between Romanian-established businesses must be reported in (since 1 January 2024) and issued through (since 1 July 2024) the national RO e-Factura system.",
+      "who": "All taxable persons established in Romania for domestic B2B transactions, regardless of VAT registration",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/facturarea-electronic-c4-83-obligatorie-de-la-1-ianuarie-2024-pentru-toate-tranzac-c8-9biile-c3-aentre-firme",
+        "https://static.anaf.ro/static/10/Anaf/legislatie/OUG_69_2024.pdf"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Legal base OUG 120/2021 as amended (OUG 69/2024, OUG 89/2025). Issuing B2B invoices outside the system attracts a fine of 15% of the invoice value."
+    },
+    {
+      "id": "ro-efactura-deadline-5-working-days",
+      "jurisdiction": "RO",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Romania: e-Factura transmission deadline now 5 working days",
+      "summary": "From 1 January 2026, the deadline for sending invoices into RO e-Factura is 5 working days from issuance (previously 5 calendar days), and no later than 5 working days from the legal issuance deadline (OUG 89/2025).",
+      "who": "All businesses required to transmit invoices to RO e-Factura",
+      "date": "2026-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://static.anaf.ro/static/3/Galati/20260202132103_termen%20transmitere%20factura%20electronica.pdf"
+      ],
+      "verified": "2026-08-04",
+      "notes": "OUG 89/2025 (Official Gazette 1203/24.12.2025) amended art. 10(7) of OUG 120/2021; deadline counted per Regulation (EEC, Euratom) 1182/71."
+    },
+    {
+      "id": "ro-efactura-b2c",
+      "jurisdiction": "RO",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Romania: RO e-Factura mandatory for B2C invoices",
+      "summary": "Since 1 January 2025, invoices issued to final consumers (B2C) must also be reported in the RO e-Factura system, feeding the pre-filled RO e-TVA return.",
+      "who": "All taxpayers issuing invoices to final consumers in Romania",
+      "date": "2025-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/id/11741330"
+      ],
+      "verified": "2026-08-04",
+      "notes": "B2C use was optional during 2024. Foreign cultural institutes/centres became subject from 1 July 2025."
+    },
+    {
+      "id": "ro-efactura-fine-15pct",
+      "jurisdiction": "RO",
+      "domain": "e-invoicing",
+      "type": "recurring-rule",
+      "title": "Romania: 15% fine for invoices issued outside e-Factura",
+      "summary": "Issuing or receiving B2B invoices outside the RO e-Factura system in breach of OUG 120/2021 attracts a fine equal to 15% of the total invoice value.",
+      "who": "Romanian-established businesses in B2B relationships",
+      "date": null,
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://static.anaf.ro/static/10/Anaf/legislatie/OUG_69_2024.pdf"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Late transmission (within the 5-working-day deadline) is sanctioned separately with fixed fines graded by taxpayer size."
+    },
+    {
+      "id": "ro-saft-small-taxpayers",
+      "jurisdiction": "RO",
+      "domain": "tax-filing",
+      "type": "recurring-rule",
+      "title": "Romania: SAF-T (D406) filing for small taxpayers",
+      "summary": "Since 1 January 2025, small taxpayers (and non-resident VAT-registered persons) must file the SAF-T informative declaration D406, monthly for VAT payers or quarterly otherwise; large taxpayers started in 2022 and medium in 2023.",
+      "who": "Small taxpayers and non-established businesses registered for VAT in Romania",
+      "date": null,
+      "recurrence": "monthly",
+      "status": "confirmed",
+      "sources": [
+        "https://www.anaf.ro/anaf/internet/ANAF/despre_anaf/strategii_anaf/proiecte_digitalizare/saf_t"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Grace period: first monthly D406 could be filed up to 6 months late (then 5, 4, 3, 2); quarterly filers got 3 months. Fines under the Fiscal Procedure Code: 1,000-5,000 lei for non-filing, 500-1,500 lei for incorrect filing (amounts per Law 207/2015 art. 337^1; not restated on the ANAF project page)."
+    },
+    {
+      "id": "ro-etransport-sanctions",
+      "jurisdiction": "RO",
+      "domain": "tax-filing",
+      "type": "rule-change",
+      "title": "Romania: e-Transport penalties in force for international transport",
+      "summary": "Sanctions under the RO e-Transport system (UIT codes for monitored road transports of goods) apply to international transport operations from 1 January 2025, after repeated postponements.",
+      "who": "Businesses transporting goods by road in Romania, including international carriage and authorised economic operators",
+      "date": "2025-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/modific-c4-83ri-la-nivelul-sistemelor-na-c8-9bionale-digitale-implementate-de-mf-sanc-c8-9biunile-pentru-e-transport-c8-99i-e-tva-se-am-c3-a2n-c4-83-pentru-1-ianuarie-2025-iar-utilizarea-e-factura-c3-aen-regim-b2c-devine-obligatorie-de-la-1-iulie-2025"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Declare transports in RO e-Transport and obtain a UIT code before movement; fines can include confiscation of the value of undeclared goods."
+    },
+    {
+      "id": "ro-etva-compliance-notices",
+      "jurisdiction": "RO",
+      "domain": "vat",
+      "type": "rule-change",
+      "title": "Romania: RO e-TVA pre-filled return and compliance notices",
+      "summary": "The RO e-TVA system generates a pre-filled VAT return from e-Factura, SAF-T, e-Transport and cash-register data; the obligation to answer 'RO e-TVA compliance notifications' on flagged differences, and the related penalty, applies from 1 July 2025.",
+      "who": "All VAT-registered businesses in Romania",
+      "date": "2025-07-01",
+      "recurrence": "monthly",
+      "status": "confirmed",
+      "sources": [
+        "https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/id/11761012",
+        "https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/modific-c4-83ri-la-nivelul-sistemelor-na-c8-9bionale-digitale-implementate-de-mf-sanc-c8-9biunile-pentru-e-transport-c8-99i-e-tva-se-am-c3-a2n-c4-83-pentru-1-ianuarie-2025-iar-utilizarea-e-factura-c3-aen-regim-b2c-devine-obligatorie-de-la-1-iulie-2025"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Taxpayers must justify significant differences between the pre-filled return and their filed VAT return within the legal deadline."
+    },
+    {
+      "id": "ro-efactura-b2c-cultural-2025",
+      "jurisdiction": "RO",
+      "domain": "e-invoicing",
+      "type": "rule-change",
+      "title": "Romania: e-Factura B2C extended to foreign cultural institutes",
+      "summary": "From 1 July 2025, cultural institutes and centres of other states operating in Romania must also use RO e-Factura for B2C invoicing.",
+      "who": "Cultural institutes/centres of foreign states active in Romania",
+      "date": "2025-07-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/modific-c4-83ri-la-nivelul-sistemelor-na-c8-9bionale-digitale-implementate-de-mf-sanc-c8-9biunile-pentru-e-transport-c8-99i-e-tva-se-am-c3-a2n-c4-83-pentru-1-ianuarie-2025-iar-utilizarea-e-factura-c3-aen-regim-b2c-devine-obligatorie-de-la-1-iulie-2025"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "eu-vida-in-force-2025",
+      "jurisdiction": "EU",
+      "domain": "vat",
+      "type": "rule-change",
+      "title": "EU: ViDA package in force — domestic e-invoicing mandates freed up",
+      "summary": "The VAT in the Digital Age (ViDA) package (Council Directive (EU) 2025/516) entered into force on 14 April 2025; from that date member states may introduce mandatory domestic e-invoicing without seeking an EU derogation.",
+      "who": "All EU member states; indirectly every VAT-registered business in the EU",
+      "date": "2025-04-14",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+        "https://eur-lex.europa.eu/eli/dir/2025/516/oj/eng"
+      ],
+      "verified": "2026-08-04",
+      "notes": "This is why France, Germany, Poland, Belgium and Romania can run national mandates ahead of the EU-wide 2030 rules."
+    },
+    {
+      "id": "eu-vida-oss-2027",
+      "jurisdiction": "EU",
+      "domain": "vat",
+      "type": "rule-change",
+      "title": "EU: ViDA clarifications to OSS and IOSS schemes",
+      "summary": "By 1 January 2027, minor ViDA legislative clarifications take effect for users of the One-Stop Shop (OSS) and Import One-Stop Shop (IOSS) VAT schemes.",
+      "who": "Businesses using OSS/IOSS for cross-border B2C sales, including small online sellers",
+      "date": "2027-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en"
+      ],
+      "verified": "2026-08-04",
+      "notes": ""
+    },
+    {
+      "id": "eu-vida-platforms-svr-2028",
+      "jurisdiction": "EU",
+      "domain": "vat",
+      "type": "deadline",
+      "title": "EU: ViDA platform economy and single VAT registration rules",
+      "summary": "From 1 July 2028, ViDA's deemed-supplier rules apply to platforms in short-term accommodation rental and road passenger transport, alongside the expanded single VAT registration; member states may postpone the platform rules until 1 January 2030.",
+      "who": "Digital platforms in accommodation/transport and businesses trading cross-border in the EU, including SME hosts and drivers",
+      "date": "2028-07-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Optional national deferral of deemed-supplier measures to 1 January 2030."
+    },
+    {
+      "id": "eu-vida-drr-2030",
+      "jurisdiction": "EU",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "EU: digital reporting and e-invoicing for intra-EU B2B trade",
+      "summary": "From 1 July 2030, ViDA's Digital Reporting Requirements apply: cross-border intra-EU B2B transactions must be invoiced with structured e-invoices and reported digitally in near real time, replacing recapitulative statements.",
+      "who": "Every business making intra-EU B2B supplies or acquisitions, regardless of size",
+      "date": "2030-07-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+        "https://eur-lex.europa.eu/eli/dir/2025/516/oj/eng"
+      ],
+      "verified": "2026-08-04",
+      "notes": "E-invoices per EN 16931; issuance deadlines shortened for intra-EU supplies."
+    },
+    {
+      "id": "eu-vida-domestic-alignment-2035",
+      "jurisdiction": "EU",
+      "domain": "e-invoicing",
+      "type": "deadline",
+      "title": "EU: national real-time reporting systems must align with EU standard",
+      "summary": "By 1 January 2035, member states with pre-existing domestic digital real-time transaction reporting systems (such as KSeF or RO e-Factura) must align them with the EU ViDA model and standards.",
+      "who": "Member states with national e-invoicing/reporting systems; businesses using those systems",
+      "date": "2035-01-01",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Long-term convergence deadline — national formats like FA(3) or RO e-Factura XML will converge on the EU standard."
+    },
+    {
+      "id": "eu-aiact-prohibitions-2025",
+      "jurisdiction": "EU",
+      "domain": "ai-act",
+      "type": "rule-change",
+      "title": "EU AI Act: prohibitions and AI literacy obligations in force",
+      "summary": "Since 2 February 2025, the AI Act's bans on prohibited AI practices and the AI literacy obligation apply — any business deploying AI must ensure staff have adequate AI literacy.",
+      "who": "All providers and deployers of AI systems in the EU, including small businesses using AI tools",
+      "date": "2025-02-02",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      ],
+      "verified": "2026-08-04",
+      "notes": "AI Act (Regulation (EU) 2024/1689) entered into force 1 August 2024."
+    },
+    {
+      "id": "eu-aiact-gpai-2025",
+      "jurisdiction": "EU",
+      "domain": "ai-act",
+      "type": "rule-change",
+      "title": "EU AI Act: GPAI model obligations and governance rules apply",
+      "summary": "Since 2 August 2025, the AI Act's governance rules and obligations for general-purpose AI (GPAI) models apply, including transparency and copyright-policy duties for model providers.",
+      "who": "Providers of general-purpose AI models placed on the EU market; indirectly SMEs building on GPAI",
+      "date": "2025-08-02",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Models already on the market before this date have until 2 August 2027 to comply."
+    },
+    {
+      "id": "eu-aiact-general-2026",
+      "jurisdiction": "EU",
+      "domain": "ai-act",
+      "type": "rule-change",
+      "title": "EU AI Act: general applicability including transparency duties",
+      "summary": "From 2 August 2026, the AI Act became generally applicable — including transparency obligations for chatbots, AI-generated content labelling and deepfake disclosure that affect small businesses using customer-facing AI.",
+      "who": "All providers and deployers of AI systems in the EU, including SMEs using chatbots or generating AI content",
+      "date": "2026-08-02",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      ],
+      "verified": "2026-08-04",
+      "notes": "High-risk rules were carved out with later dates: sensitive-area high-risk uses from 2 December 2027, product-embedded high-risk from 2 August 2028."
+    },
+    {
+      "id": "eu-aiact-highrisk-annex3-2027",
+      "jurisdiction": "EU",
+      "domain": "ai-act",
+      "type": "deadline",
+      "title": "EU AI Act: high-risk rules for sensitive areas apply",
+      "summary": "From 2 December 2027, AI Act rules for high-risk systems in sensitive areas — biometrics, critical infrastructure, education, employment (including CV-screening and hiring tools), migration and border control — apply.",
+      "who": "Providers and deployers of high-risk AI in sensitive areas, including SMEs using AI hiring or credit tools",
+      "date": "2027-12-02",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Date per the Commission's current official timeline, which extended the originally planned 2 August 2027 milestone to 2 December 2027."
+    },
+    {
+      "id": "eu-aiact-highrisk-products-2028",
+      "jurisdiction": "EU",
+      "domain": "ai-act",
+      "type": "deadline",
+      "title": "EU AI Act: rules for AI embedded in regulated products apply",
+      "summary": "From 2 August 2028, AI Act high-risk rules apply to AI systems embedded in regulated products such as machinery, lifts, toys and medical devices.",
+      "who": "Manufacturers and deployers of regulated products containing AI, including SME manufacturers",
+      "date": "2028-08-02",
+      "recurrence": null,
+      "status": "confirmed",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      ],
+      "verified": "2026-08-04",
+      "notes": "Extended transition period for product-embedded (Annex I) high-risk AI systems."
     }
   ]
 }

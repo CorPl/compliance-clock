@@ -72,8 +72,11 @@ def main():
             errors.append(f"{eid}: bad status '{e.get('status')}'")
         if e.get("recurrence") not in RECURRENCES:
             errors.append(f"{eid}: bad recurrence '{e.get('recurrence')}'")
-        check_date(e.get("date"), "date", eid, errors,
-                   allow_null=(e.get("type") == "recurring-rule"))
+        # date may be null for standing rules, and for announced/proposed changes
+        # whose commencement date is genuinely not yet fixed in law
+        null_date_ok = (e.get("type") == "recurring-rule"
+                        or e.get("status") in ("announced", "proposed"))
+        check_date(e.get("date"), "date", eid, errors, allow_null=null_date_ok)
         check_date(e.get("verified"), "verified", eid, errors)
         srcs = e.get("sources")
         if not isinstance(srcs, list) or not srcs:
