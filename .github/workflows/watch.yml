@@ -17,13 +17,15 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: watch-and-publish
   cancel-in-progress: false
 
 jobs:
-  watch-build-deploy:
+  watch-and-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,15 +43,20 @@ jobs:
           git add data/status.json data/queue.json data/snapshots site
           git diff --cached --quiet || git commit -m "watch: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
-      - name: Deploy site/ to gh-pages (auto-enables GitHub Pages)
-        run: |
-          cd site
-          git init -b gh-pages
-          git config user.name "compliance-clock-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add .
-          git commit -m "deploy: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Configure GitHub Pages (enables hosting if not yet enabled)
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload site for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: watch-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
