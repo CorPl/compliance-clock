@@ -1,4 +1,7 @@
-# The Compliance Clock
+# Compliance Check
+
+Live: https://compliancecheck.uk (also corpl.github.io/compliance-clock)
+Contact: a2a@compliancecheck.uk
 
 A continuously verified record of compliance deadlines and rule changes for small
 businesses across the UK and Europe — published for people (website + weekly digest)

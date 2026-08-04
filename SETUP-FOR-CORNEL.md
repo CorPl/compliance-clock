@@ -20,18 +20,40 @@ You already have a GitHub account, which is all we need (a new project = a new
    free hosting (GitHub Pages) and the daily automatic runs, and gives you the
    live address.
 
-## Step 2 — Buy the domain (~£10–15/year, ~10 min)
+## Step 2 — Connect your domain compliancecheck.uk (~10 min) — bought 04/08/2026 ✓
 
-The website works free on GitHub's address (yourname.github.io/compliance-clock),
-so the domain can wait until you're happy. When ready:
+Two halves: DNS records at your registrar, and one setting on GitHub.
 
-1. Use a UK-friendly registrar: **Cloudflare Registrar** (at-cost pricing) or
-   **Namecheap**. Avoid add-ons — you need nothing except the domain itself.
-2. Name ideas (check availability): `complianceclock.eu`, `complianceclock.co.uk`,
-   `theclock.tax`. My preference: **.eu** — it says exactly what the product
-   covers and travels well across the UK+EU audience.
-3. Buy it in your own account with your own card. Then tell me — I'll give you
-   the two DNS values to copy-paste so it points at the site.
+**A. At your domain registrar** (wherever you bought compliancecheck.uk), find
+"DNS settings" / "Manage DNS" and add these records:
+
+| Type  | Name/Host        | Value                  |
+|-------|------------------|------------------------|
+| A     | @ (or blank)     | 185.199.108.153        |
+| A     | @ (or blank)     | 185.199.109.153        |
+| A     | @ (or blank)     | 185.199.110.153        |
+| A     | @ (or blank)     | 185.199.111.153        |
+| CNAME | www              | corpl.github.io        |
+
+Delete any pre-existing "parking" A/CNAME records the registrar added.
+
+**B. On GitHub:** github.com/CorPl/compliance-clock/settings/pages →
+"Custom domain" → type `compliancecheck.uk` → **Save**. When the DNS check
+passes (minutes to a few hours), tick **Enforce HTTPS**.
+
+## Step 2b — Make a2a@compliancecheck.uk receive email (free, ~5 min)
+
+Registrars don't include a mailbox — use free **email forwarding** so mail to
+a2a@compliancecheck.uk lands in your normal inbox:
+
+- **Cloudflare:** Email → Email Routing → create address `a2a` → forward to
+  your real email → follow the prompts (it adds the MX records itself).
+- **Namecheap:** Domain → Redirect Email → add `a2a` → your real email.
+- Other registrars: look for "Email forwarding" — same idea everywhere.
+
+To also SEND from that address later, your mail provider needs it added as a
+send-as alias — ask me when you want that and I'll give exact steps for your
+setup.
 
 ## Step 3 — Weekly digest email (free, later, ~10 min)
 

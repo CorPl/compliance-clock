@@ -1,7 +1,9 @@
 {
-  "project": "The Compliance Clock",
+  "project": "Compliance Check",
+  "website": "https://compliancecheck.uk",
+  "contact": "a2a@compliancecheck.uk",
   "description": "Verified compliance deadlines and rule changes for small businesses (UK, FR, DE, PL, BE, RO, EU). Official sources only.",
-  "generated_at": "2026-08-04T10:48:45Z",
+  "generated_at": "2026-08-04T13:26:16Z",
   "disclaimer": "Information service reporting official sources; not legal or tax advice. Entries are append-only; corrections reference the id they supersede.",
   "freshness": {
     "last_watcher_run": "2026-08-04T10:48:45Z",

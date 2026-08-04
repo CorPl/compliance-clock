@@ -21,7 +21,7 @@ def main():
                       key=lambda e: e["date"])
     fresh = [e for e in entries if e["verified"] >= week_ago]
 
-    print(f"# The Compliance Clock — week of {today.strftime('%d/%m/%Y')}\n")
+    print(f"# Compliance Check — week of {today.strftime('%d/%m/%Y')}\n")
     print("## Due in the next 60 days\n")
     if not upcoming:
         print("No tracked deadlines in the next 60 days.\n")

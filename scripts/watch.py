@@ -37,7 +37,7 @@ SNAPSHOTS = DATA / "snapshots"
 STATUS_FILE = DATA / "status.json"
 QUEUE_FILE = DATA / "queue.json"
 TIMEOUT = 30
-UA = "ComplianceClockWatcher/0.1 (+contact: see repository README)"
+UA = "ComplianceCheckWatcher/0.1 (+https://compliancecheck.uk; a2a@compliancecheck.uk)"
 ESCALATE_AT = 5
 
 # Signatures of bot-block / CAPTCHA / outage pages. A blocked fetch is an ERROR
@@ -170,7 +170,7 @@ def main():
     status = load_json(STATUS_FILE, {"sources": {}, "last_run": None})
     queue = load_json(QUEUE_FILE, [])
 
-    print(f"Compliance Clock watchers — {len(sources)} sources, {now_iso()}")
+    print(f"Compliance Check watchers — {len(sources)} sources, {now_iso()}")
     results = {"ok": 0, "changed": 0, "error": 0}
     for src in sources:
         results[check_source(src, status, queue)] += 1

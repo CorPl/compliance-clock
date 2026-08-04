@@ -142,10 +142,10 @@ def build_index(entries, status):
     gen = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
     parts = [f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Compliance Clock — verified UK &amp; EU small-business deadlines</title>
+<title>Compliance Check — verified UK &amp; EU small-business deadlines</title>
 <meta name="description" content="A continuously verified feed of compliance deadlines and rule changes for small businesses in the UK, France, Germany, Poland, Belgium and Romania. Every entry linked to its official source.">
 <style>{CSS}</style></head><body><div class="page">
-<header><h1>The Compliance Clock</h1>
+<header><h1>Compliance Check</h1>
 <p class="lede">Verified deadlines and rule changes for small businesses — UK &amp; Europe.
 Every entry links to its official government source, with the date we verified it.</p>
 <p class="meta">Generated {gen} · <a href="feed.json">machine-readable feed</a> ·
@@ -159,9 +159,9 @@ Every entry links to its official government source, with the date we verified i
     parts += [entry_html(e) for e in recurring]
     parts.append("<h2>Recently in force</h2>")
     parts += [entry_html(e) for e in in_force]
-    parts.append(f'''<footer>The Compliance Clock reports what official sources say, with
+    parts.append(f'''<footer>Compliance Check reports what official sources say, with
 links and dates. It is an information service, not legal or tax advice.
-Corrections are published openly — entries are never silently edited.</footer>
+Corrections are published openly — entries are never silently edited.<br>Contact: a2a@compliancecheck.uk</footer>
 </div><script>{FILTER_JS}</script></body></html>''')
     return "".join(parts)
 
@@ -186,12 +186,12 @@ def build_status(status):
     gen = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
     return f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Source freshness — The Compliance Clock</title><style>{CSS}</style></head>
+<title>Source freshness — Compliance Check</title><style>{CSS}</style></head>
 <body><div class="page"><header><h1>Source freshness</h1>
 <p class="lede">When each official source was last successfully checked. If a watcher
 breaks, it shows here — we display staleness rather than hide it.</p>
 <p class="meta">Generated {gen} · last watcher run: {esc(status.get("last_run") or "never")} ·
-<a href="index.html">back to the Clock</a></p></header>
+<a href="index.html">back to Compliance Check</a></p></header>
 <table><tr><th>Source</th><th>Country</th><th>Topic</th><th>Last checked OK</th><th>State</th></tr>
 {"".join(rows)}</table></div></body></html>'''
 
@@ -199,7 +199,9 @@ breaks, it shows here — we display staleness rather than hide it.</p>
 def build_feed(entries, status):
     by_jur, failing = freshness(status)
     return {
-        "project": "The Compliance Clock",
+        "project": "Compliance Check",
+        "website": "https://compliancecheck.uk",
+        "contact": "a2a@compliancecheck.uk",
         "description": "Verified compliance deadlines and rule changes for small businesses (UK, FR, DE, PL, BE, RO, EU). Official sources only.",
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "disclaimer": "Information service reporting official sources; not legal or tax advice. Entries are append-only; corrections reference the id they supersede.",
