@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-08-04T07:48:14Z",
+      "last_ok": "2026-08-04T10:33:51Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-08-04T07:48:14Z",
+      "last_ok": "2026-08-04T10:33:51Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-08-04T07:48:15Z",
+      "last_ok": "2026-08-04T10:33:52Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-08-04T07:48:17Z",
+      "last_ok": "2026-08-04T10:33:53Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-08-04T07:48:18Z",
+      "last_ok": "2026-08-04T10:33:53Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-08-04T07:48:18Z",
+      "last_ok": "2026-08-04T10:33:53Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-08-04T07:48:19Z",
+      "last_ok": "2026-08-04T10:33:54Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-08-04T07:48:21Z",
+      "last_ok": "2026-08-04T10:33:54Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-08-04T07:48:22Z",
+      "last_ok": "2026-08-04T10:33:57Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,7 +121,7 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-08-04T07:48:23Z",
+      "last_ok": "2026-08-04T10:33:58Z",
       "last_error": {
         "at": "2026-08-03T15:44:16Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> blocked: bot-block page (matched 'radware captcha')"
@@ -141,7 +141,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-08-04T07:48:26Z",
+      "last_ok": "2026-08-04T10:34:00Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -155,8 +155,11 @@
     },
     "be-efactuur": {
       "last_ok": "2026-08-04T07:48:27Z",
-      "last_error": null,
-      "consecutive_failures": 0,
+      "last_error": {
+        "at": "2026-08-04T10:34:30Z",
+        "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
+      },
+      "consecutive_failures": 1,
       "urls": {
         "https://efactuur.belgium.be/nl": {
           "last_hash": "d4aa6cf66bf59003ce35f2349521292ea10c14d1cb7f68d1d9761dc272864f8c",
@@ -167,7 +170,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-08-04T07:48:30Z",
+      "last_ok": "2026-08-04T10:34:32Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -180,7 +183,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-08-04T07:48:31Z",
+      "last_ok": "2026-08-04T10:34:32Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -193,7 +196,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-08-04T07:48:35Z",
+      "last_ok": "2026-08-04T10:34:32Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -206,5 +209,5 @@
       "escalated": false
     }
   },
-  "last_run": "2026-08-04T07:48:35Z"
+  "last_run": "2026-08-04T10:34:32Z"
 }
