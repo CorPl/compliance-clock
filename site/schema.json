@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://compliancecheck.uk/schema.json",
+  "title": "Compliance Check feed",
+  "description": "Schema for the Compliance Check dataset at https://compliancecheck.uk/feed.json",
+  "type": "object",
+  "required": [
+    "project",
+    "schema_version",
+    "generated_at",
+    "freshness",
+    "entry_count",
+    "entries"
+  ],
+  "properties": {
+    "project": {
+      "const": "Compliance Check"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "freshness": {
+      "type": "object",
+      "properties": {
+        "last_watcher_run": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "last_ok_by_jurisdiction": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "failing_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "entry_count": {
+      "type": "integer"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "jurisdiction",
+          "domain",
+          "type",
+          "title",
+          "summary",
+          "who",
+          "date",
+          "recurrence",
+          "status",
+          "sources",
+          "verified",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable unique id; never reused"
+          },
+          "jurisdiction": {
+            "enum": [
+              "BE",
+              "DE",
+              "EU",
+              "FR",
+              "PL",
+              "RO",
+              "UK"
+            ]
+          },
+          "domain": {
+            "enum": [
+              "ai-act",
+              "company-register",
+              "e-invoicing",
+              "employer",
+              "landlord",
+              "tax-filing",
+              "vat"
+            ]
+          },
+          "type": {
+            "enum": [
+              "deadline",
+              "recurring-rule",
+              "rule-change"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "who": {
+            "type": "string",
+            "description": "Who is affected, incl. thresholds"
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "description": "Deadline or effective date; null for standing rules and not-yet-fixed announced changes"
+          },
+          "recurrence": {
+            "enum": [
+              "quarterly",
+              "annual",
+              "monthly",
+              null
+            ]
+          },
+          "status": {
+            "enum": [
+              "announced",
+              "confirmed",
+              "proposed",
+              "unverified"
+            ],
+            "description": "confirmed=in force/in law; announced=stated by government, not yet law; proposed=consultation/bill; unverified=could not confirm on an accessible official page"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Official government/EU source URLs only"
+          },
+          "verified": {
+            "type": "string",
+            "format": "date",
+            "description": "Date we last verified this entry against its sources"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "supersedes": {
+            "type": "string",
+            "description": "Id of the entry this correction supersedes (append-only policy)"
+          }
+        }
+      }
+    }
+  }
+}

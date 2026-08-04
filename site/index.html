@@ -1,7 +1,14 @@
 <!doctype html><html lang="en-GB"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Compliance Check — verified UK &amp; EU small-business deadlines</title>
-<meta name="description" content="A continuously verified feed of compliance deadlines and rule changes for small businesses in the UK, France, Germany, Poland, Belgium and Romania. Every entry linked to its official source.">
+<meta name="description" content="Verified compliance deadlines and rule changes for small businesses in the UK, France, Germany, Poland, Belgium and Romania. Every entry links to its official government source. Machine-readable feed for AI tools and agents.">
+<meta property="og:title" content="Compliance Check — verified UK &amp; EU small-business deadlines">
+<meta property="og:description" content="Verified compliance deadlines and rule changes for small businesses in the UK, France, Germany, Poland, Belgium and Romania. Every entry links to its official government source. Machine-readable feed for AI tools and agents.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://compliancecheck.uk/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4d3b'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://compliancecheck.uk/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Compliance Check — UK & EU small-business compliance deadlines", "description": "Verified compliance deadlines and rule changes for small businesses in the UK, France, Germany, Poland, Belgium and Romania. Every entry links to its official government source. Machine-readable feed for AI tools and agents.", "url": "https://compliancecheck.uk", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "Compliance Check", "url": "https://compliancecheck.uk", "email": "a2a@compliancecheck.uk"}, "dateModified": "2026-08-04", "spatialCoverage": ["United Kingdom", "France", "Germany", "Poland", "Belgium", "Romania", "European Union"], "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://compliancecheck.uk/feed.json"}], "isAccessibleForFree": true}</script>
 <style>
 :root{--paper:#f6f7f4;--card:#fff;--ink:#1d2521;--soft:#4b564f;--line:#d9ded9;
 --green:#1d4d3b;--green-soft:#e7efe9;--brass:#8a6d1a;--warn:#a33d2a;--warn-soft:#f7e9e5}
@@ -10,12 +17,30 @@
 --warn:#e08a74;--warn-soft:#33201a}}
 *{box-sizing:border-box}body{background:var(--paper);color:var(--ink);margin:0;
 font-family:Seravek,'Gill Sans Nova',Ubuntu,Calibri,'Trebuchet MS',sans-serif;line-height:1.55;
-padding:2.2rem 1rem 4rem}.page{max-width:46rem;margin:0 auto}
-h1,h2{font-family:Charter,'Bitstream Charter','Sitka Text',Cambria,Georgia,serif;margin:0;line-height:1.2}
-h1{font-size:1.9rem}h2{font-size:1.15rem;margin:2rem 0 .8rem}
-.lede{color:var(--soft);margin:.5rem 0 0;font-size:1rem}
-header{border-bottom:3px double var(--line);padding-bottom:1.2rem;margin-bottom:1.4rem}
-.meta{font-size:.78rem;color:var(--soft);margin-top:.6rem}
+padding:0 1rem 4rem}.page{max-width:46rem;margin:0 auto}
+h1,h2,h3.serif{font-family:Charter,'Bitstream Charter','Sitka Text',Cambria,Georgia,serif;margin:0;line-height:1.2}
+h1{font-size:1.9rem}h2{font-size:1.2rem;margin:2.2rem 0 .8rem}
+.lede{color:var(--soft);margin:.6rem 0 0;font-size:1.02rem;max-width:38rem}
+.topbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.6rem;
+padding:1rem 0;border-bottom:1px solid var(--line);margin-bottom:1.6rem}
+.wordmark{display:flex;align-items:center;gap:.55rem;text-decoration:none;color:var(--ink)}
+.wordmark .mark{width:1.45rem;height:1.45rem;border-radius:.33rem;background:var(--green);
+display:inline-flex;align-items:center;justify-content:center;flex:none}
+.wordmark .mark svg{width:.95rem;height:.95rem}
+.wordmark .name{font-family:Charter,'Bitstream Charter','Sitka Text',Cambria,Georgia,serif;
+font-weight:700;font-size:1.08rem}
+nav.site{display:flex;gap:1rem;font-size:.85rem}
+nav.site a{color:var(--soft);text-decoration:none}
+nav.site a:hover,nav.site a[aria-current=page]{color:var(--green)}
+.stats{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1rem}
+.stat{font-size:.78rem;padding:.22rem .7rem;border-radius:99px;background:var(--green-soft);
+color:var(--green);font-weight:600}
+.nextup{display:flex;gap:.7rem;align-items:baseline;background:var(--card);
+border:1px solid var(--green);border-left:4px solid var(--green);border-radius:6px;
+padding:.75rem 1rem;margin:1.4rem 0 .4rem;font-size:.95rem}
+.nextup .d{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;font-weight:700;
+color:var(--green);white-space:nowrap}
+.meta{font-size:.78rem;color:var(--soft);margin-top:.8rem}
 .filters{display:flex;flex-wrap:wrap;gap:.4rem;margin:1rem 0}
 .filters button{font:inherit;font-size:.8rem;padding:.25rem .7rem;border-radius:99px;
 border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
@@ -34,19 +59,43 @@ border-radius:99px;background:var(--green-soft);color:var(--green);font-weight:6
 .src{font-size:.78rem;color:var(--soft)}.src a{color:var(--green);word-break:break-all}
 .stale{background:var(--warn-soft);border:1px solid var(--warn);color:var(--ink);
 border-radius:6px;padding:.7rem 1rem;font-size:.88rem;margin:1rem 0}
+.prose p{margin:.7rem 0;max-width:40rem}.prose ul{max-width:40rem}
+.prose li{margin:.4rem 0}
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.8rem;margin:1.2rem 0}
+.pillar{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:.9rem 1rem}
+.pillar h3{font-size:.95rem;margin:0 0 .3rem;color:var(--green)}
+.pillar p{font-size:.86rem;margin:0;color:var(--soft)}
+code,pre{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;font-size:.85em;
+background:var(--green-soft);border-radius:4px;padding:.1rem .35rem}
+pre{padding:.8rem 1rem;overflow-x:auto}
 footer{margin-top:3rem;border-top:1px solid var(--line);padding-top:1rem;
 font-size:.8rem;color:var(--soft)}
+footer a{color:var(--green)}
 table{border-collapse:collapse;width:100%;font-size:.85rem}
 th,td{text-align:left;padding:.45rem .6rem .45rem 0;border-bottom:1px solid var(--line)}
 th{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}
 .ok{color:var(--green);font-weight:600}.err{color:var(--warn);font-weight:600}
 a{color:var(--green)}
 </style></head><body><div class="page">
-<header><h1>Compliance Check</h1>
-<p class="lede">Verified deadlines and rule changes for small businesses — UK &amp; Europe.
-Every entry links to its official government source, with the date we verified it.</p>
-<p class="meta">Generated 04/08/2026 13:26 UTC · <a href="feed.json">machine-readable feed</a> ·
-<a href="status.html">source freshness</a> · 97 entries</p></header>
+<div class="topbar">
+<a class="wordmark" href="index.html"><span class="mark"><svg viewBox='0 0 32 32' aria-hidden='true'><path d='M9 17l5 5 9-11' stroke='white' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg></span>
+<span class="name">Compliance Check</span></a>
+<nav class="site"><a href="index.html" aria-current=page>The clock</a><a href="about.html">About</a><a href="status.html">Source freshness</a><a href="disclaimer.html">Legal</a><a href="feed.json">Feed</a></nav>
+</div>
+<header>
+<h1>Verified compliance deadlines for small businesses — UK &amp; Europe</h1>
+<p class="lede">Every deadline and rule change below is verified against its official
+government source, dated, and never silently edited. Built for busy owners — and for
+the AI tools and agents that increasingly act on their behalf.</p>
+<div class="stats"><span class="stat">97 verified entries</span>
+<span class="stat">7 jurisdictions</span>
+<span class="stat">checked daily</span>
+<span class="stat">every entry sourced</span></div>
+<div class="nextup"><span class="d">2026-08-07</span><span><strong>Next deadline (in 3 days):</strong> MTD Income Tax quarterly update 1 (2026-27) due — United Kingdom</span></div>
+<p class="meta">Generated 04/08/2026 13:58 UTC ·
+<a href="feed.json">machine-readable feed</a> · <a href="about.html">how this works</a> ·
+<a href="status.html">source freshness</a></p>
+</header>
 
 <div class="filters" id="jur"><button data-v="all" aria-pressed="true">All countries</button><button data-v="UK" aria-pressed="false">United Kingdom</button><button data-v="FR" aria-pressed="false">France</button><button data-v="DE" aria-pressed="false">Germany</button><button data-v="PL" aria-pressed="false">Poland</button><button data-v="BE" aria-pressed="false">Belgium</button><button data-v="RO" aria-pressed="false">Romania</button><button data-v="EU" aria-pressed="false">European Union</button></div>
 <div class="filters" id="dom"><button data-v="all" aria-pressed="true">All topics</button><button data-v="tax-filing" aria-pressed="false">Tax filing</button><button data-v="e-invoicing" aria-pressed="false">E-invoicing</button><button data-v="vat" aria-pressed="false">VAT</button><button data-v="company-register" aria-pressed="false">Company register</button><button data-v="employer" aria-pressed="false">Employer duties</button><button data-v="landlord" aria-pressed="false">Landlord rules</button><button data-v="ai-act" aria-pressed="false">AI Act</button></div>
@@ -626,10 +675,7 @@ Every entry links to its official government source, with the date we verified i
 <span class="chip">Tax filing</span><span class="chip status-confirmed">confirmed</span></div>
 <h3>Romania: e-Transport penalties in force for international transport</h3><p>Sanctions under the RO e-Transport system (UIT codes for monitored road transports of goods) apply to international transport operations from 1 January 2025, after repeated postponements.</p>
 <p class="who">Applies to: Businesses transporting goods by road in Romania, including international carriage and authorised economic operators</p><p class="who">Declare transports in RO e-Transport and obtain a UIT code before movement; fines can include confiscation of the value of undeclared goods.</p>
-<p class="src">Source: <a href="https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/modific-c4-83ri-la-nivelul-sistemelor-na-c8-9bionale-digitale-implementate-de-mf-sanc-c8-9biunile-pentru-e-transport-c8-99i-e-tva-se-am-c3-a2n-c4-83-pentru-1-ianuarie-2025-iar-utilizarea-e-factura-c3-aen-regim-b2c-devine-obligatorie-de-la-1-iulie-2025" rel="noopener">mfinante.gov.ro</a> · verified 2026-08-04</p></article><footer>Compliance Check reports what official sources say, with
-links and dates. It is an information service, not legal or tax advice.
-Corrections are published openly — entries are never silently edited.<br>Contact: a2a@compliancecheck.uk</footer>
-</div><script>
+<p class="src">Source: <a href="https://mfinante.gov.ro/en/acasa/-/asset_publisher/uwgr/content/modific-c4-83ri-la-nivelul-sistemelor-na-c8-9bionale-digitale-implementate-de-mf-sanc-c8-9biunile-pentru-e-transport-c8-99i-e-tva-se-am-c3-a2n-c4-83-pentru-1-ianuarie-2025-iar-utilizarea-e-factura-c3-aen-regim-b2c-devine-obligatorie-de-la-1-iulie-2025" rel="noopener">mfinante.gov.ro</a> · verified 2026-08-04</p></article><script>
 document.querySelectorAll('.filters button').forEach(function(btn){
   btn.addEventListener('click',function(){
     var group=btn.closest('.filters');
@@ -645,4 +691,12 @@ function apply(){
     el.style.display=show?'':'none';
   });
 }
-</script></body></html>
+</script>
+<footer>Compliance Check is an information service reporting what official sources say,
+with links and verification dates — it is not legal, tax or professional advice:
+<a href="disclaimer.html">read the full disclaimer</a>.
+Entries are append-only; corrections are published openly, never silently edited.<br>
+Data licence: <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>
+(free to use with attribution to Compliance Check — compliancecheck.uk) ·
+Contact: <a href="mailto:a2a@compliancecheck.uk">a2a@compliancecheck.uk</a></footer>
+</div></body></html>

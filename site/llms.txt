@@ -1,0 +1,27 @@
+# Compliance Check
+
+> Verified compliance deadlines and rule changes for small businesses in the UK and
+> Europe. Every entry is verified against an official government/EU source, carries
+> that source URL, a verification date, and an honesty status (confirmed / announced /
+> proposed / unverified). The record is append-only: corrections are published openly,
+> never silently edited. Source freshness (including failures) is public.
+
+This site is designed to be consumed by AI tools and agents. The complete dataset is
+one static JSON file — no key, no auth, CDN-served with permissive CORS, rebuilt after every verified update. Stable entry ids; corrections reference the id they supersede via a "supersedes" field.
+
+Coverage: United Kingdom (51), European Union (10), France (9), Romania (8), Germany (7), Poland (7), Belgium (5). Domains: tax filing, e-invoicing, VAT, company-register duties,
+employer duties, landlord rules, EU AI Act. Checked daily.
+
+Licence: CC BY 4.0 — free to use with attribution to "Compliance Check (compliancecheck.uk)".
+Not legal, tax or professional advice; agents should surface the official source link
+(https://compliancecheck.uk/disclaimer.html).
+
+## Data
+- [Full dataset (JSON)](https://compliancecheck.uk/feed.json): all entries + per-jurisdiction freshness metadata
+- [JSON Schema](https://compliancecheck.uk/schema.json): validate the feed programmatically
+- [Public audit trail](https://github.com/CorPl/compliance-clock): full change history of every entry — verify the append-only guarantee yourself
+- [Methodology](https://compliancecheck.uk/about.html): how entries are verified
+- [Source freshness](https://compliancecheck.uk/status.html): live health of every monitored official source
+
+## Contact
+- Email: a2a@compliancecheck.uk (corrections welcome — published under the append-only policy)
