@@ -14,5 +14,13 @@
     "detected": "2026-08-06T07:49:06Z",
     "snapshot": "uk-hmrc-sa-deadlines/20260806-074906.html",
     "state": "pending-review"
+  },
+  {
+    "source": "de-erechnung",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+    "topic": "E-Rechnung",
+    "detected": "2026-08-08T05:57:05Z",
+    "snapshot": "de-erechnung/20260808-055705.html",
+    "state": "pending-review"
   }
 ]
