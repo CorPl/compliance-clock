@@ -22,5 +22,21 @@
     "detected": "2026-08-08T05:57:05Z",
     "snapshot": "de-erechnung/20260808-055705.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-it",
+    "url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+    "topic": "Making Tax Digital for Income Tax",
+    "detected": "2026-08-10T06:41:49Z",
+    "snapshot": "uk-hmrc-mtd-it/20260810-064149.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-collection",
+    "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
+    "topic": "MTD step by step",
+    "detected": "2026-08-10T06:41:49Z",
+    "snapshot": "uk-hmrc-mtd-collection/20260810-064149.html",
+    "state": "pending-review"
   }
 ]
