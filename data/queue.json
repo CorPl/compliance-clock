@@ -38,5 +38,13 @@
     "detected": "2026-08-10T06:41:49Z",
     "snapshot": "uk-hmrc-mtd-collection/20260810-064149.html",
     "state": "pending-review"
+  },
+  {
+    "source": "eu-ai-act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "topic": "EU AI Act",
+    "detected": "2026-08-11T06:04:42Z",
+    "snapshot": "eu-ai-act/20260811-060442.html",
+    "state": "pending-review"
   }
 ]

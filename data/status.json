@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-08-10T06:41:49Z",
+      "last_ok": "2026-08-11T06:04:32Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-08-10T06:41:49Z",
+      "last_ok": "2026-08-11T06:04:32Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-08-10T06:41:49Z",
+      "last_ok": "2026-08-11T06:04:33Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-08-10T06:41:51Z",
+      "last_ok": "2026-08-11T06:04:34Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-08-10T06:41:52Z",
+      "last_ok": "2026-08-11T06:04:34Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-08-10T06:41:52Z",
+      "last_ok": "2026-08-11T06:04:34Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-08-10T06:41:53Z",
+      "last_ok": "2026-08-11T06:04:35Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-08-10T06:41:55Z",
+      "last_ok": "2026-08-11T06:04:35Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-08-10T06:41:55Z",
+      "last_ok": "2026-08-11T06:04:35Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,7 +121,7 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-08-10T06:41:56Z",
+      "last_ok": "2026-08-11T06:04:36Z",
       "last_error": {
         "at": "2026-08-10T06:41:56Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 403: Forbidden"
@@ -137,11 +137,11 @@
           "last_len": 12439
         }
       },
-      "last_ok_url": "https://e-rechnung-bund.de/",
+      "last_ok_url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-08-10T06:41:59Z",
+      "last_ok": "2026-08-11T06:04:38Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -154,12 +154,12 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-08-09T05:57:55Z",
+      "last_ok": "2026-08-11T06:04:39Z",
       "last_error": {
         "at": "2026-08-10T06:42:29Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "urls": {
         "https://efactuur.belgium.be/nl": {
           "last_hash": "d4aa6cf66bf59003ce35f2349521292ea10c14d1cb7f68d1d9761dc272864f8c",
@@ -170,7 +170,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-08-10T06:42:31Z",
+      "last_ok": "2026-08-11T06:04:40Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -183,7 +183,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-08-10T06:42:32Z",
+      "last_ok": "2026-08-11T06:04:41Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -196,7 +196,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-08-10T06:42:32Z",
+      "last_ok": "2026-08-11T06:04:42Z",
       "last_error": {
         "at": "2026-08-08T05:57:42Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: TimeoutError: The read operation timed out"
@@ -204,13 +204,13 @@
       "consecutive_failures": 0,
       "urls": {
         "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
-          "last_hash": "ce782712fe294aa5b366279b0b72c3a2da49e99adf6266c246e825149c16de4a",
-          "last_len": 18181
+          "last_hash": "fd3312fd91255b53f2fe499a5deb4c6cb89a04021309eba3e9a8d8637510ba1e",
+          "last_len": 18157
         }
       },
       "last_ok_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "escalated": false
     }
   },
-  "last_run": "2026-08-10T06:42:32Z"
+  "last_run": "2026-08-11T06:04:42Z"
 }
