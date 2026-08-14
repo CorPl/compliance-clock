@@ -46,5 +46,13 @@
     "detected": "2026-08-11T06:04:42Z",
     "snapshot": "eu-ai-act/20260811-060442.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-collection",
+    "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
+    "topic": "MTD step by step",
+    "detected": "2026-08-14T06:42:18Z",
+    "snapshot": "uk-hmrc-mtd-collection/20260814-064218.html",
+    "state": "pending-review"
   }
 ]
