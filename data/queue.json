@@ -62,5 +62,13 @@
     "detected": "2026-08-21T05:47:46Z",
     "snapshot": "de-erechnung/20260821-054746.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-collection",
+    "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
+    "topic": "MTD step by step",
+    "detected": "2026-08-25T05:48:03Z",
+    "snapshot": "uk-hmrc-mtd-collection/20260825-054803.html",
+    "state": "pending-review"
   }
 ]
