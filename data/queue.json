@@ -70,5 +70,13 @@
     "detected": "2026-08-25T05:48:03Z",
     "snapshot": "uk-hmrc-mtd-collection/20260825-054803.html",
     "state": "pending-review"
+  },
+  {
+    "source": "de-erechnung",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+    "topic": "E-Rechnung",
+    "detected": "2026-08-26T05:50:22Z",
+    "snapshot": "de-erechnung/20260826-055022.html",
+    "state": "pending-review"
   }
 ]
