@@ -1,4 +1,4 @@
 Contact: mailto:a2a@compliancecheck.uk
-Expires: 2027-08-01T00:00:00Z
+Expires: 2027-09-01T00:00:00Z
 Preferred-Languages: en, ro
 Canonical: https://compliancecheck.uk/.well-known/security.txt
