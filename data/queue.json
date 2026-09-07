@@ -126,5 +126,13 @@
     "detected": "2026-09-01T10:06:12Z",
     "snapshot": "eu-ai-act/20260901-100612.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-it",
+    "url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+    "topic": "Making Tax Digital for Income Tax",
+    "detected": "2026-09-07T10:18:46Z",
+    "snapshot": "uk-hmrc-mtd-it/20260907-101846.html",
+    "state": "pending-review"
   }
 ]
