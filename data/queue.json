@@ -150,5 +150,21 @@
     "detected": "2026-09-09T09:45:37Z",
     "snapshot": "de-erechnung/20260909-094537.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-collection",
+    "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
+    "topic": "MTD step by step",
+    "detected": "2026-09-11T09:41:16Z",
+    "snapshot": "uk-hmrc-mtd-collection/20260911-094116.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "eu-vida",
+    "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+    "topic": "VAT in the Digital Age",
+    "detected": "2026-09-11T09:41:30Z",
+    "snapshot": "eu-vida/20260911-094130.html",
+    "state": "pending-review"
   }
 ]
