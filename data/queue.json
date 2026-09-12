@@ -166,5 +166,21 @@
     "detected": "2026-09-11T09:41:30Z",
     "snapshot": "eu-vida/20260911-094130.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-collection",
+    "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
+    "topic": "MTD step by step",
+    "detected": "2026-09-12T09:21:38Z",
+    "snapshot": "uk-hmrc-mtd-collection/20260912-092138.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "pl-ksef",
+    "url": "https://www.podatki.gov.pl/ksef/",
+    "topic": "KSeF",
+    "detected": "2026-09-12T09:21:47Z",
+    "snapshot": "pl-ksef/20260912-092147.html",
+    "state": "pending-review"
   }
 ]
