@@ -182,5 +182,13 @@
     "detected": "2026-09-12T09:21:47Z",
     "snapshot": "pl-ksef/20260912-092147.html",
     "state": "pending-review"
+  },
+  {
+    "source": "eu-vida",
+    "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+    "topic": "VAT in the Digital Age",
+    "detected": "2026-09-21T10:44:04Z",
+    "snapshot": "eu-vida/20260921-104404.html",
+    "state": "pending-review"
   }
 ]
