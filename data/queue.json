@@ -198,5 +198,13 @@
     "detected": "2026-09-22T09:57:49Z",
     "snapshot": "de-erechnung/20260922-095749.html",
     "state": "pending-review"
+  },
+  {
+    "source": "de-erechnung",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+    "topic": "E-Rechnung",
+    "detected": "2026-09-23T09:59:07Z",
+    "snapshot": "de-erechnung/20260923-095907.html",
+    "state": "pending-review"
   }
 ]
