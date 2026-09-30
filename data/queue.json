@@ -246,5 +246,13 @@
     "detected": "2026-09-29T11:22:27Z",
     "snapshot": "eu-ai-act/20260929-112227.html",
     "state": "pending-review"
+  },
+  {
+    "source": "eu-ai-act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "topic": "EU AI Act",
+    "detected": "2026-09-30T11:10:52Z",
+    "snapshot": "eu-ai-act/20260930-111052.html",
+    "state": "pending-review"
   }
 ]
