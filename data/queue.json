@@ -262,5 +262,21 @@
     "detected": "2026-10-01T11:37:16Z",
     "snapshot": "eu-ai-act/20261001-113716.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-hmrc-mtd-it",
+    "url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+    "topic": "Making Tax Digital for Income Tax",
+    "detected": "2026-10-02T11:06:20Z",
+    "snapshot": "uk-hmrc-mtd-it/20261002-110620.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "uk-companies-house-idv",
+    "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+    "topic": "Companies House identity verification",
+    "detected": "2026-10-02T11:06:24Z",
+    "snapshot": "uk-companies-house-idv/20261002-110624.html",
+    "state": "pending-review"
   }
 ]

@@ -1,20 +1,20 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-10-01T11:37:00Z",
+      "last_ok": "2026-10-02T11:06:20Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax": {
-          "last_hash": "fa380b36aeeb20db1b01b6475e7cc0fdc500dc683903bfc4bced87fe241be025",
-          "last_len": 11431
+          "last_hash": "47f8b4af59e5aebfca087d52b9240b3aa83ecd7be7690e87cacdfe311ef75e68",
+          "last_len": 11344
         }
       },
       "last_ok_url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-10-01T11:37:01Z",
+      "last_ok": "2026-10-02T11:06:22Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-10-01T11:37:02Z",
+      "last_ok": "2026-10-02T11:06:22Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-10-01T11:37:03Z",
+      "last_ok": "2026-10-02T11:06:23Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,20 +53,20 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-10-01T11:37:04Z",
+      "last_ok": "2026-10-02T11:06:24Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house": {
-          "last_hash": "87443004b44bb47621aebf84120a1180f674746ae36c981b3a6ca4d4753b11b7",
-          "last_len": 12187
+          "last_hash": "99fb2cb7b877f297252ecdfb8f19e4a6f0ddffc8d2d0d43a8475a692704f0687",
+          "last_len": 12106
         }
       },
       "last_ok_url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-10-01T11:37:04Z",
+      "last_ok": "2026-10-02T11:06:25Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-10-01T11:37:05Z",
+      "last_ok": "2026-10-02T11:06:25Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-10-01T11:37:06Z",
+      "last_ok": "2026-10-02T11:06:26Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-10-01T11:37:06Z",
+      "last_ok": "2026-10-02T11:06:27Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,7 +121,7 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-10-01T11:37:08Z",
+      "last_ok": "2026-10-02T11:06:28Z",
       "last_error": {
         "at": "2026-09-29T11:22:22Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> collapsed: content collapsed 37417->106 chars"
@@ -141,7 +141,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-10-01T11:37:11Z",
+      "last_ok": "2026-10-02T11:06:31Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -157,7 +157,7 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-10-01T11:37:12Z",
+      "last_ok": "2026-10-02T11:06:32Z",
       "last_error": {
         "at": "2026-08-21T05:48:18Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -173,7 +173,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-10-01T11:37:14Z",
+      "last_ok": "2026-10-02T11:06:34Z",
       "last_error": {
         "at": "2026-08-12T06:42:37Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -189,7 +189,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-10-01T11:37:15Z",
+      "last_ok": "2026-10-02T11:06:35Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -202,7 +202,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-10-01T11:37:16Z",
+      "last_ok": "2026-10-02T11:06:36Z",
       "last_error": {
         "at": "2026-08-08T05:57:42Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: TimeoutError: The read operation timed out"
@@ -218,5 +218,5 @@
       "escalated": false
     }
   },
-  "last_run": "2026-10-01T11:37:16Z"
+  "last_run": "2026-10-02T11:06:36Z"
 }
