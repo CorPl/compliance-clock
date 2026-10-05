@@ -286,5 +286,13 @@
     "detected": "2026-10-03T10:24:43Z",
     "snapshot": "eu-ai-act/20261003-102443.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-renters-rights",
+    "url": "https://www.gov.uk/government/publications/guide-to-the-renters-rights-bill",
+    "topic": "Renters' Rights Act",
+    "detected": "2026-10-05T12:16:44Z",
+    "snapshot": "uk-renters-rights/20261005-121644.html",
+    "state": "pending-review"
   }
 ]
