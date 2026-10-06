@@ -294,5 +294,13 @@
     "detected": "2026-10-05T12:16:44Z",
     "snapshot": "uk-renters-rights/20261005-121644.html",
     "state": "pending-review"
+  },
+  {
+    "source": "eu-ai-act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "topic": "EU AI Act",
+    "detected": "2026-10-06T12:01:54Z",
+    "snapshot": "eu-ai-act/20261006-120154.html",
+    "state": "pending-review"
   }
 ]
