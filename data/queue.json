@@ -350,5 +350,13 @@
     "detected": "2026-10-14T10:12:52Z",
     "snapshot": "eu-ai-act/20261014-101252.html",
     "state": "pending-review"
+  },
+  {
+    "source": "pl-ksef",
+    "url": "https://www.podatki.gov.pl/ksef/",
+    "topic": "KSeF",
+    "detected": "2026-10-15T09:54:18Z",
+    "snapshot": "pl-ksef/20261015-095418.html",
+    "state": "pending-review"
   }
 ]
