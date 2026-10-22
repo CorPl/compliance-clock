@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-10-21T10:07:42Z",
+      "last_ok": "2026-10-22T10:10:27Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-10-21T10:07:42Z",
+      "last_ok": "2026-10-22T10:10:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-10-21T10:07:42Z",
+      "last_ok": "2026-10-22T10:10:29Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-10-21T10:07:43Z",
+      "last_ok": "2026-10-22T10:10:32Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-10-21T10:07:43Z",
+      "last_ok": "2026-10-22T10:10:33Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-10-21T10:07:43Z",
+      "last_ok": "2026-10-22T10:10:33Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-10-21T10:07:43Z",
+      "last_ok": "2026-10-22T10:10:35Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-10-21T10:07:44Z",
+      "last_ok": "2026-10-22T10:10:37Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-10-21T10:07:45Z",
+      "last_ok": "2026-10-22T10:10:37Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -113,8 +113,8 @@
       "consecutive_failures": 0,
       "urls": {
         "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique": {
-          "last_hash": "72263c99128982bd6d05f3d278f6a239a152b858ebc0c034db7582bb6974bd15",
-          "last_len": 4408
+          "last_hash": "014a87c468ba27ae84b8fd6ff0cc65f1f4550d2e7e254493b9444e020067009a",
+          "last_len": 3838
         }
       },
       "last_ok_url": "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique",
@@ -123,10 +123,10 @@
     "de-erechnung": {
       "last_ok": "2026-10-21T10:07:48Z",
       "last_error": {
-        "at": "2026-10-21T10:07:48Z",
-        "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+        "at": "2026-10-22T10:11:43Z",
+        "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable; https://e-rechnung-bund.de/ -> error: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>; https://www.gesetze-im-internet.de/ustg_1980/__14.html -> error: URLError: <urlopen error timed out>"
       },
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "urls": {
         "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html": {
           "last_hash": "9763aa61d4c57fec1b68e85a4f53195202f4abb8bd164cf45cfda230ae79d53d",
@@ -135,13 +135,17 @@
         "https://e-rechnung-bund.de/": {
           "last_hash": "7986a606d299b6f01e8dc7eaeaff6d26baf639127a5c1a741132390078cae08b",
           "last_len": 12576
+        },
+        "https://www.gesetze-im-internet.de/ustg_1980/__14.html": {
+          "last_hash": null,
+          "last_len": null
         }
       },
       "last_ok_url": "https://e-rechnung-bund.de/",
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-10-21T10:07:50Z",
+      "last_ok": "2026-10-22T10:11:46Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -157,7 +161,7 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-10-21T10:07:51Z",
+      "last_ok": "2026-10-22T10:11:47Z",
       "last_error": {
         "at": "2026-08-21T05:48:18Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -173,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-10-21T10:07:52Z",
+      "last_ok": "2026-10-22T10:11:50Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -189,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-10-21T10:07:52Z",
+      "last_ok": "2026-10-22T10:11:50Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -204,10 +208,10 @@
     "eu-ai-act": {
       "last_ok": "2026-10-21T10:07:53Z",
       "last_error": {
-        "at": "2026-08-08T05:57:42Z",
-        "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: TimeoutError: The read operation timed out"
+        "at": "2026-10-22T10:11:50Z",
+        "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
       },
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "urls": {
         "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
           "last_hash": "5fbd2a0e87f22dbe59919bc50e15082dd9035b6dc86805d5fdd80adbe51cb90d",
@@ -218,5 +222,5 @@
       "escalated": false
     }
   },
-  "last_run": "2026-10-21T10:07:53Z"
+  "last_run": "2026-10-22T10:11:50Z"
 }
