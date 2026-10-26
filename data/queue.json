@@ -398,5 +398,13 @@
     "detected": "2026-10-23T10:03:22Z",
     "snapshot": "fr-einvoicing/20261023-100322.html",
     "state": "pending-review"
+  },
+  {
+    "source": "fr-einvoicing",
+    "url": "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique",
+    "topic": "Facturation électronique B2B",
+    "detected": "2026-10-26T11:06:56Z",
+    "snapshot": "fr-einvoicing/20261026-110656.html",
+    "state": "pending-review"
   }
 ]
