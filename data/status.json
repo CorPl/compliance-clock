@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-10-26T11:06:53Z",
+      "last_ok": "2026-10-27T10:33:34Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-10-26T11:06:53Z",
+      "last_ok": "2026-10-27T10:33:36Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-10-26T11:06:53Z",
+      "last_ok": "2026-10-27T10:33:37Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-10-26T11:06:54Z",
+      "last_ok": "2026-10-27T10:33:39Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-10-26T11:06:54Z",
+      "last_ok": "2026-10-27T10:33:39Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-10-26T11:06:55Z",
+      "last_ok": "2026-10-27T10:33:39Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-10-26T11:06:55Z",
+      "last_ok": "2026-10-27T10:33:40Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-10-26T11:06:55Z",
+      "last_ok": "2026-10-27T10:33:41Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-10-26T11:06:56Z",
+      "last_ok": "2026-10-27T10:33:41Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,12 +121,12 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-10-25T09:49:02Z",
+      "last_ok": "2026-10-27T10:34:00Z",
       "last_error": {
-        "at": "2026-10-26T11:07:28Z",
-        "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable; https://e-rechnung-bund.de/ -> error: URLError: <urlopen error [Errno 104] Connection reset by peer>; https://www.gesetze-im-internet.de/ustg_1980/__14.html -> error: URLError: <urlopen error timed out>"
+        "at": "2026-10-27T10:34:00Z",
+        "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "urls": {
         "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html": {
           "last_hash": "9763aa61d4c57fec1b68e85a4f53195202f4abb8bd164cf45cfda230ae79d53d",
@@ -145,7 +145,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-10-26T11:07:32Z",
+      "last_ok": "2026-10-27T10:34:03Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -161,7 +161,7 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-10-26T11:07:33Z",
+      "last_ok": "2026-10-27T10:34:04Z",
       "last_error": {
         "at": "2026-08-21T05:48:18Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -177,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-10-26T11:07:35Z",
+      "last_ok": "2026-10-27T10:34:06Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -193,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-10-26T11:07:36Z",
+      "last_ok": "2026-10-27T10:34:06Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -208,10 +208,10 @@
     "eu-ai-act": {
       "last_ok": "2026-10-21T10:07:53Z",
       "last_error": {
-        "at": "2026-10-26T11:07:36Z",
+        "at": "2026-10-27T10:34:06Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
       },
-      "consecutive_failures": 5,
+      "consecutive_failures": 6,
       "urls": {
         "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
           "last_hash": "5fbd2a0e87f22dbe59919bc50e15082dd9035b6dc86805d5fdd80adbe51cb90d",
@@ -222,5 +222,5 @@
       "escalated": true
     }
   },
-  "last_run": "2026-10-26T11:07:36Z"
+  "last_run": "2026-10-27T10:34:06Z"
 }
