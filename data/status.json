@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-10-31T10:55:20Z",
+      "last_ok": "2026-11-01T11:50:16Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-10-31T10:55:21Z",
+      "last_ok": "2026-11-01T11:50:16Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-10-31T10:55:21Z",
+      "last_ok": "2026-11-01T11:50:17Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-10-31T10:55:22Z",
+      "last_ok": "2026-11-01T11:50:17Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-10-31T10:55:22Z",
+      "last_ok": "2026-11-01T11:50:18Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-10-31T10:55:22Z",
+      "last_ok": "2026-11-01T11:50:18Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-10-31T10:55:22Z",
+      "last_ok": "2026-11-01T11:50:20Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-10-31T10:55:23Z",
+      "last_ok": "2026-11-01T11:50:21Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-10-31T10:55:23Z",
+      "last_ok": "2026-11-01T11:50:21Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,9 +121,9 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-10-31T10:55:39Z",
+      "last_ok": "2026-11-01T11:50:23Z",
       "last_error": {
-        "at": "2026-10-31T10:55:39Z",
+        "at": "2026-11-01T11:50:23Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable"
       },
       "consecutive_failures": 0,
@@ -145,7 +145,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-10-31T10:55:42Z",
+      "last_ok": "2026-11-01T11:50:28Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -161,7 +161,7 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-10-31T10:55:42Z",
+      "last_ok": "2026-11-01T11:50:28Z",
       "last_error": {
         "at": "2026-08-21T05:48:18Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -177,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-10-31T10:55:44Z",
+      "last_ok": "2026-11-01T11:50:30Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -193,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-10-31T10:55:45Z",
+      "last_ok": "2026-11-01T11:50:31Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -206,7 +206,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-10-31T10:55:45Z",
+      "last_ok": "2026-11-01T11:50:32Z",
       "last_error": {
         "at": "2026-10-29T11:31:18Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
@@ -222,5 +222,5 @@
       "escalated": false
     }
   },
-  "last_run": "2026-10-31T10:55:45Z"
+  "last_run": "2026-11-01T11:50:32Z"
 }
