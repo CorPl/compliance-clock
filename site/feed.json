@@ -9,18 +9,18 @@
   "schema": "https://compliancecheck.uk/schema.json",
   "source_repository": "https://github.com/CorPl/compliance-clock",
   "provenance": "Append-only ledger; every change is publicly auditable in the source repository history. Raw snapshots of official source pages are retained as evidence.",
-  "generated_at": "2026-11-03T12:47:46Z",
+  "generated_at": "2026-11-04T12:59:45Z",
   "disclaimer": "Information service reporting official sources; not legal, tax or professional advice. Verify against the linked official source before acting. Full terms: https://compliancecheck.uk/disclaimer.html",
   "freshness": {
-    "last_watcher_run": "2026-11-03T12:47:46Z",
+    "last_watcher_run": "2026-11-04T12:59:45Z",
     "last_ok_by_jurisdiction": {
-      "UK": "2026-11-03T12:47:30Z",
-      "FR": "2026-11-03T12:47:36Z",
-      "DE": "2026-11-03T12:47:38Z",
-      "PL": "2026-11-03T12:47:42Z",
+      "UK": "2026-11-04T12:58:58Z",
+      "FR": "2026-11-04T12:59:00Z",
+      "DE": "2026-11-04T12:59:05Z",
+      "PL": "2026-11-04T12:59:12Z",
       "BE": "2026-11-03T12:47:43Z",
-      "RO": "2026-11-03T12:47:45Z",
-      "EU": "2026-11-03T12:47:46Z"
+      "RO": "2026-11-04T12:59:44Z",
+      "EU": "2026-11-04T12:59:44Z"
     },
     "failing_sources": []
   },
