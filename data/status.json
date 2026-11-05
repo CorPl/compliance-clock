@@ -1,33 +1,33 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-11-04T12:58:58Z",
+      "last_ok": "2026-11-05T13:11:46Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax": {
-          "last_hash": "47f8b4af59e5aebfca087d52b9240b3aa83ecd7be7690e87cacdfe311ef75e68",
-          "last_len": 11344
+          "last_hash": "68afc21f886da80815c7ba1f17620b1d846ef91e5c5e45ff6c5cc11975673673",
+          "last_len": 11396
         }
       },
       "last_ok_url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-11-04T12:58:58Z",
+      "last_ok": "2026-11-05T13:11:48Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step": {
-          "last_hash": "bd48a1015d9f2c2f6352b83569e331b293a015915e9ac7702595ad5dfd8ee31f",
-          "last_len": 7367
+          "last_hash": "a72131b1ab6c4e73f63acae34675e25d931649ef1b29690b1bbbaee1191711ea",
+          "last_len": 7420
         }
       },
       "last_ok_url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-11-04T12:58:58Z",
+      "last_ok": "2026-11-05T13:11:49Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-11-04T12:58:58Z",
+      "last_ok": "2026-11-05T13:11:51Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,20 +53,20 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-11-04T12:58:59Z",
+      "last_ok": "2026-11-05T13:11:52Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house": {
-          "last_hash": "99fb2cb7b877f297252ecdfb8f19e4a6f0ddffc8d2d0d43a8475a692704f0687",
-          "last_len": 12106
+          "last_hash": "0266ccf1ce045a1c8aee3b69b489fc57d4ad7bb4a014295b32e8a1a819e14137",
+          "last_len": 12156
         }
       },
       "last_ok_url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-11-04T12:58:59Z",
+      "last_ok": "2026-11-05T13:11:53Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-11-04T12:58:59Z",
+      "last_ok": "2026-11-05T13:11:54Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-11-04T12:59:00Z",
+      "last_ok": "2026-11-05T13:11:55Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-11-04T12:59:00Z",
+      "last_ok": "2026-11-05T13:11:56Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,9 +121,9 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-11-04T12:59:05Z",
+      "last_ok": "2026-11-05T13:11:58Z",
       "last_error": {
-        "at": "2026-11-04T12:59:05Z",
+        "at": "2026-11-05T13:11:58Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable"
       },
       "consecutive_failures": 0,
@@ -145,7 +145,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-11-04T12:59:12Z",
+      "last_ok": "2026-11-05T13:12:02Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -161,12 +161,12 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-11-03T12:47:43Z",
+      "last_ok": "2026-11-05T13:12:03Z",
       "last_error": {
         "at": "2026-11-04T12:59:42Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "urls": {
         "https://efactuur.belgium.be/nl": {
           "last_hash": "d4aa6cf66bf59003ce35f2349521292ea10c14d1cb7f68d1d9761dc272864f8c",
@@ -177,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-11-04T12:59:44Z",
+      "last_ok": "2026-11-05T13:12:06Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -193,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-11-04T12:59:44Z",
+      "last_ok": "2026-11-05T13:12:07Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -206,7 +206,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-11-04T12:59:45Z",
+      "last_ok": "2026-11-05T13:12:07Z",
       "last_error": {
         "at": "2026-10-29T11:31:18Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
@@ -214,13 +214,13 @@
       "consecutive_failures": 0,
       "urls": {
         "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
-          "last_hash": "18328bcadda086cfa00553e1e856d52f4bf9b49bce1dd438400e1b846329bda9",
-          "last_len": 18079
+          "last_hash": "2cf9efae20742f1676f5dac35c9edffed157ca410eb19376711da508bdc069b2",
+          "last_len": 18173
         }
       },
       "last_ok_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "escalated": false
     }
   },
-  "last_run": "2026-11-04T12:59:45Z"
+  "last_run": "2026-11-05T13:12:07Z"
 }
