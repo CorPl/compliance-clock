@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-11-15T12:43:52Z",
+      "last_ok": "2026-11-16T13:38:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-11-15T12:43:52Z",
+      "last_ok": "2026-11-16T13:38:29Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-11-15T12:43:52Z",
+      "last_ok": "2026-11-16T13:38:29Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-11-15T12:43:53Z",
+      "last_ok": "2026-11-16T13:38:29Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-11-15T12:43:53Z",
+      "last_ok": "2026-11-16T13:38:30Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-11-15T12:43:53Z",
+      "last_ok": "2026-11-16T13:38:30Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,20 +79,20 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-11-15T12:43:54Z",
+      "last_ok": "2026-11-16T13:38:31Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/running-payroll": {
-          "last_hash": "50751a0a7b6c1a015d95f790cd4c1c76f9a69e3578051571423f3cbb1bbf1017",
-          "last_len": 7655
+          "last_hash": "8baeae3b2713d1813eb77174835953281821aa25fe55931ce0eada446987bad5",
+          "last_len": 7659
         }
       },
       "last_ok_url": "https://www.gov.uk/running-payroll",
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-11-15T12:43:54Z",
+      "last_ok": "2026-11-16T13:38:31Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-11-15T12:43:54Z",
+      "last_ok": "2026-11-16T13:38:32Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -123,10 +123,10 @@
     "de-erechnung": {
       "last_ok": "2026-11-13T13:06:35Z",
       "last_error": {
-        "at": "2026-11-15T12:44:56Z",
+        "at": "2026-11-16T13:39:34Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable; https://e-rechnung-bund.de/ -> error: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>; https://www.gesetze-im-internet.de/ustg_1980/__14.html -> error: URLError: <urlopen error timed out>"
       },
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "urls": {
         "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html": {
           "last_hash": "9763aa61d4c57fec1b68e85a4f53195202f4abb8bd164cf45cfda230ae79d53d",
@@ -145,7 +145,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-11-15T12:44:59Z",
+      "last_ok": "2026-11-16T13:39:38Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -161,7 +161,7 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-11-15T12:44:59Z",
+      "last_ok": "2026-11-16T13:39:38Z",
       "last_error": {
         "at": "2026-11-04T12:59:42Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -177,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-11-15T12:45:01Z",
+      "last_ok": "2026-11-16T13:39:41Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -193,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-11-15T12:45:02Z",
+      "last_ok": "2026-11-16T13:39:41Z",
       "last_error": {
         "at": "2026-11-11T12:43:17Z",
         "error": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en -> error: HTTPError: HTTP Error 429: Too Many Requests"
@@ -209,7 +209,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-11-15T12:45:02Z",
+      "last_ok": "2026-11-16T13:39:42Z",
       "last_error": {
         "at": "2026-10-29T11:31:18Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
@@ -217,13 +217,13 @@
       "consecutive_failures": 0,
       "urls": {
         "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
-          "last_hash": "2cf9efae20742f1676f5dac35c9edffed157ca410eb19376711da508bdc069b2",
-          "last_len": 18173
+          "last_hash": "fc8854c7942e8c4224e96c0215ad61bc0b7b4a562fb198383a437d7fcd17b68f",
+          "last_len": 18153
         }
       },
       "last_ok_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "escalated": false
     }
   },
-  "last_run": "2026-11-15T12:45:02Z"
+  "last_run": "2026-11-16T13:39:42Z"
 }

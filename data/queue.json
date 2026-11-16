@@ -462,5 +462,21 @@
     "detected": "2026-11-05T13:12:07Z",
     "snapshot": "eu-ai-act/20261105-131207.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-employer-deadlines",
+    "url": "https://www.gov.uk/running-payroll",
+    "topic": "Employer payroll duties",
+    "detected": "2026-11-16T13:38:31Z",
+    "snapshot": "uk-employer-deadlines/20261116-133831.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "eu-ai-act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "topic": "EU AI Act",
+    "detected": "2026-11-16T13:39:42Z",
+    "snapshot": "eu-ai-act/20261116-133942.html",
+    "state": "pending-review"
   }
 ]
