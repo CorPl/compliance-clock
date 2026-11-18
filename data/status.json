@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-11-17T14:23:21Z",
+      "last_ok": "2026-11-18T13:57:41Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,20 +14,20 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-11-17T14:23:21Z",
+      "last_ok": "2026-11-18T13:57:42Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step": {
-          "last_hash": "a72131b1ab6c4e73f63acae34675e25d931649ef1b29690b1bbbaee1191711ea",
-          "last_len": 7420
+          "last_hash": "4b6c046c6e2cdf7bf9b1e0a3a3ca8abd35de28e97cb395b5748561ce0b8696d9",
+          "last_len": 7421
         }
       },
       "last_ok_url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax-for-businesses-step-by-step",
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-11-17T14:23:22Z",
+      "last_ok": "2026-11-18T13:57:42Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-11-17T14:23:24Z",
+      "last_ok": "2026-11-18T13:57:42Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,7 +53,7 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-11-17T14:23:25Z",
+      "last_ok": "2026-11-18T13:57:42Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -66,7 +66,7 @@
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-11-17T14:23:25Z",
+      "last_ok": "2026-11-18T13:57:42Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-11-17T14:23:25Z",
+      "last_ok": "2026-11-18T13:57:43Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-11-17T14:23:26Z",
+      "last_ok": "2026-11-18T13:57:44Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-11-17T14:23:26Z",
+      "last_ok": "2026-11-18T13:57:45Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -121,16 +121,16 @@
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-11-13T13:06:35Z",
+      "last_ok": "2026-11-18T13:57:46Z",
       "last_error": {
         "at": "2026-11-17T14:23:58Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable; https://e-rechnung-bund.de/ -> error: URLError: <urlopen error [Errno 104] Connection reset by peer>; https://www.gesetze-im-internet.de/ustg_1980/__14.html -> error: URLError: <urlopen error timed out>"
       },
-      "consecutive_failures": 4,
+      "consecutive_failures": 0,
       "urls": {
         "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html": {
-          "last_hash": "9763aa61d4c57fec1b68e85a4f53195202f4abb8bd164cf45cfda230ae79d53d",
-          "last_len": 37417
+          "last_hash": "e28f574ea07d511b539405d54a29545dbc9c47babe34d5c87c2d9a4d4932d6a0",
+          "last_len": 44094
         },
         "https://e-rechnung-bund.de/": {
           "last_hash": "7986a606d299b6f01e8dc7eaeaff6d26baf639127a5c1a741132390078cae08b",
@@ -141,11 +141,11 @@
           "last_len": 10609
         }
       },
-      "last_ok_url": "https://www.gesetze-im-internet.de/ustg_1980/__14.html",
+      "last_ok_url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-11-17T14:24:02Z",
+      "last_ok": "2026-11-18T13:57:48Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -161,7 +161,7 @@
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-11-17T14:24:03Z",
+      "last_ok": "2026-11-18T13:57:49Z",
       "last_error": {
         "at": "2026-11-04T12:59:42Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -177,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-11-17T14:24:05Z",
+      "last_ok": "2026-11-18T13:57:51Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -193,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-11-17T14:24:06Z",
+      "last_ok": "2026-11-18T13:57:52Z",
       "last_error": {
         "at": "2026-11-11T12:43:17Z",
         "error": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en -> error: HTTPError: HTTP Error 429: Too Many Requests"
@@ -209,7 +209,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-11-17T14:24:06Z",
+      "last_ok": "2026-11-18T13:57:52Z",
       "last_error": {
         "at": "2026-10-29T11:31:18Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
@@ -225,5 +225,5 @@
       "escalated": false
     }
   },
-  "last_run": "2026-11-17T14:24:06Z"
+  "last_run": "2026-11-18T13:57:52Z"
 }
