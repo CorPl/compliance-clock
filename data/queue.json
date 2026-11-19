@@ -494,5 +494,37 @@
     "detected": "2026-11-18T13:57:46Z",
     "snapshot": "de-erechnung/20261118-135746.html",
     "state": "pending-review"
+  },
+  {
+    "source": "uk-companies-house-idv",
+    "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+    "topic": "Companies House identity verification",
+    "detected": "2026-11-19T14:25:28Z",
+    "snapshot": "uk-companies-house-idv/20261119-142528.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "fr-einvoicing",
+    "url": "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique",
+    "topic": "Facturation électronique B2B",
+    "detected": "2026-11-19T14:25:30Z",
+    "snapshot": "fr-einvoicing/20261119-142530.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "de-erechnung",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+    "topic": "E-Rechnung",
+    "detected": "2026-11-19T14:25:30Z",
+    "snapshot": "de-erechnung/20261119-142530.html",
+    "state": "pending-review"
+  },
+  {
+    "source": "pl-ksef",
+    "url": "https://www.podatki.gov.pl/ksef/",
+    "topic": "KSeF",
+    "detected": "2026-11-19T14:25:33Z",
+    "snapshot": "pl-ksef/20261119-142533.html",
+    "state": "pending-review"
   }
 ]

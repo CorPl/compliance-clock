@@ -1,7 +1,7 @@
 {
   "sources": {
     "uk-hmrc-mtd-it": {
-      "last_ok": "2026-11-18T13:57:41Z",
+      "last_ok": "2026-11-19T14:25:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -14,7 +14,7 @@
       "escalated": false
     },
     "uk-hmrc-mtd-collection": {
-      "last_ok": "2026-11-18T13:57:42Z",
+      "last_ok": "2026-11-19T14:25:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -27,7 +27,7 @@
       "escalated": false
     },
     "uk-hmrc-sa-deadlines": {
-      "last_ok": "2026-11-18T13:57:42Z",
+      "last_ok": "2026-11-19T14:25:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -40,7 +40,7 @@
       "escalated": false
     },
     "uk-vat-registration": {
-      "last_ok": "2026-11-18T13:57:42Z",
+      "last_ok": "2026-11-19T14:25:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -53,20 +53,20 @@
       "escalated": false
     },
     "uk-companies-house-idv": {
-      "last_ok": "2026-11-18T13:57:42Z",
+      "last_ok": "2026-11-19T14:25:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
         "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house": {
-          "last_hash": "0266ccf1ce045a1c8aee3b69b489fc57d4ad7bb4a014295b32e8a1a819e14137",
-          "last_len": 12156
+          "last_hash": "bcf2cf8dd971d9fe8aebb4b9d5d6d9958c0d9353c91e0add4bbf1fabe42db7f5",
+          "last_len": 11203
         }
       },
       "last_ok_url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
       "escalated": false
     },
     "uk-companies-house-changes": {
-      "last_ok": "2026-11-18T13:57:42Z",
+      "last_ok": "2026-11-19T14:25:28Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -79,7 +79,7 @@
       "escalated": false
     },
     "uk-employer-deadlines": {
-      "last_ok": "2026-11-18T13:57:43Z",
+      "last_ok": "2026-11-19T14:25:29Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -92,7 +92,7 @@
       "escalated": false
     },
     "uk-renters-rights": {
-      "last_ok": "2026-11-18T13:57:44Z",
+      "last_ok": "2026-11-19T14:25:29Z",
       "last_error": null,
       "consecutive_failures": 0,
       "urls": {
@@ -105,7 +105,7 @@
       "escalated": false
     },
     "fr-einvoicing": {
-      "last_ok": "2026-11-18T13:57:45Z",
+      "last_ok": "2026-11-19T14:25:30Z",
       "last_error": {
         "at": "2026-08-03T15:31:53Z",
         "error": "HTTPError: HTTP Error 404: Not Found"
@@ -113,15 +113,15 @@
       "consecutive_failures": 0,
       "urls": {
         "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique": {
-          "last_hash": "72263c99128982bd6d05f3d278f6a239a152b858ebc0c034db7582bb6974bd15",
-          "last_len": 4408
+          "last_hash": "a50ebe203c2b2d40f755f60aa5638baf2c3e12872aa3724fb444791f6156a600",
+          "last_len": 4252
         }
       },
       "last_ok_url": "https://www.impots.gouv.fr/professionnel/je-passe-la-facturation-electronique",
       "escalated": false
     },
     "de-erechnung": {
-      "last_ok": "2026-11-18T13:57:46Z",
+      "last_ok": "2026-11-19T14:25:30Z",
       "last_error": {
         "at": "2026-11-17T14:23:58Z",
         "error": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html -> error: HTTPError: HTTP Error 503: Service Temporarily Unavailable; https://e-rechnung-bund.de/ -> error: URLError: <urlopen error [Errno 104] Connection reset by peer>; https://www.gesetze-im-internet.de/ustg_1980/__14.html -> error: URLError: <urlopen error timed out>"
@@ -129,8 +129,8 @@
       "consecutive_failures": 0,
       "urls": {
         "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html": {
-          "last_hash": "e28f574ea07d511b539405d54a29545dbc9c47babe34d5c87c2d9a4d4932d6a0",
-          "last_len": 44094
+          "last_hash": "ad61bc3040a819501138c91b496d28e87241a6749a9dcc20db4d80be34f3740d",
+          "last_len": 44197
         },
         "https://e-rechnung-bund.de/": {
           "last_hash": "7986a606d299b6f01e8dc7eaeaff6d26baf639127a5c1a741132390078cae08b",
@@ -145,7 +145,7 @@
       "escalated": false
     },
     "pl-ksef": {
-      "last_ok": "2026-11-18T13:57:48Z",
+      "last_ok": "2026-11-19T14:25:33Z",
       "last_error": {
         "at": "2026-08-30T10:29:19Z",
         "error": "https://www.podatki.gov.pl/ksef/ -> collapsed: content collapsed 2987->83 chars"
@@ -153,15 +153,15 @@
       "consecutive_failures": 0,
       "urls": {
         "https://www.podatki.gov.pl/ksef/": {
-          "last_hash": "5707fec125af1176620450c2bb2eaacd8cfdac801a8f77b7b4ce27a585b67194",
-          "last_len": 3109
+          "last_hash": "801a9968ac7ed131728dbde584d6f9c8939bd47334a4c64f1a42048dd1a53916",
+          "last_len": 3059
         }
       },
       "last_ok_url": "https://www.podatki.gov.pl/ksef/",
       "escalated": false
     },
     "be-efactuur": {
-      "last_ok": "2026-11-18T13:57:49Z",
+      "last_ok": "2026-11-19T14:25:34Z",
       "last_error": {
         "at": "2026-11-04T12:59:42Z",
         "error": "https://efactuur.belgium.be/nl -> error: URLError: <urlopen error [Errno 101] Network is unreachable>"
@@ -177,7 +177,7 @@
       "escalated": false
     },
     "ro-efactura": {
-      "last_ok": "2026-11-18T13:57:51Z",
+      "last_ok": "2026-11-19T14:25:35Z",
       "last_error": {
         "at": "2026-10-05T12:17:20Z",
         "error": "https://mfinante.gov.ro/ro/web/efactura -> error: URLError: <urlopen error timed out>"
@@ -193,7 +193,7 @@
       "escalated": false
     },
     "eu-vida": {
-      "last_ok": "2026-11-18T13:57:52Z",
+      "last_ok": "2026-11-19T14:25:36Z",
       "last_error": {
         "at": "2026-11-11T12:43:17Z",
         "error": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en -> error: HTTPError: HTTP Error 429: Too Many Requests"
@@ -209,7 +209,7 @@
       "escalated": false
     },
     "eu-ai-act": {
-      "last_ok": "2026-11-18T13:57:52Z",
+      "last_ok": "2026-11-19T14:25:36Z",
       "last_error": {
         "at": "2026-10-29T11:31:18Z",
         "error": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai -> error: HTTPError: HTTP Error 403: Forbidden"
@@ -225,5 +225,5 @@
       "escalated": false
     }
   },
-  "last_run": "2026-11-18T13:57:52Z"
+  "last_run": "2026-11-19T14:25:36Z"
 }
