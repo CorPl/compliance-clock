@@ -622,5 +622,13 @@
     "detected": "2026-11-27T15:04:51Z",
     "snapshot": "eu-ai-act/20261127-150451.html",
     "state": "pending-review"
+  },
+  {
+    "source": "de-erechnung",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+    "topic": "E-Rechnung",
+    "detected": "2026-11-28T14:11:44Z",
+    "snapshot": "de-erechnung/20261128-141144.html",
+    "state": "pending-review"
   }
 ]
